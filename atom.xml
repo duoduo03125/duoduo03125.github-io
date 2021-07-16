@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-07-16T02:43:39.421Z</updated>
+  <updated>2021-07-16T14:26:58.078Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>duoduo的笔记本推荐</title>
+    <link href="http://example.com/2021/07/16/duoduo%E7%9A%84%E7%AC%94%E8%AE%B0%E6%9C%AC%E6%8E%A8%E8%8D%90/"/>
+    <id>http://example.com/2021/07/16/duoduo%E7%9A%84%E7%AC%94%E8%AE%B0%E6%9C%AC%E6%8E%A8%E8%8D%90/</id>
+    <published>2021-07-16T13:31:02.000Z</published>
+    <updated>2021-07-16T14:26:58.078Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>最近有好多人（两个）请我推荐电脑，其中还发生了一起明明追求屏幕素质最后却买了天选2（屏幕很一般）的惨剧。为了帮助对电脑不太了解的同学，duoduo决定自己写一篇笔记本推荐。个人观点，仅供参考。</strong></p><h2 id="duoduo挑选电脑的标准"><a href="#duoduo挑选电脑的标准" class="headerlink" title="duoduo挑选电脑的标准"></a>duoduo挑选电脑的标准</h2><p>1.性价比较高：所以像幻66这种玩意儿我是不会推荐的。</p><p>2.屏幕素质：色域至少是72%NTSC/100%sRGB，低端游戏本上常见的45%NTSC色域简直不能看；刷新率最好是144HZ（游戏冠军必备）。</p><p>3.内存至少16G，固态硬盘至少512G。</p><p>4.靠谱的售后：对，说的就是你神舟。</p><p>5.一定的颜值。</p><h2 id="关于购买渠道"><a href="#关于购买渠道" class="headerlink" title="关于购买渠道"></a>关于购买渠道</h2><p>1.勇者可尝试闲鱼/淘宝，价格便宜，但是翻新机不少，而且售后比较麻烦。</p><p>2.京（gou）东自营/天猫旗舰店：价格较为合适，而且一般为全新正品，买到翻新机的概率比较小（但还是有）。注意一定要在旗舰店购买。本文中的参考价格为京东自营（不打折不优惠）。</p><p>3.线下不建议，因为导购很有可能隐瞒缺点，或者强推利润高的机型，或者给你推过时库存机。</p><h2 id="游戏本的推荐"><a href="#游戏本的推荐" class="headerlink" title="游戏本的推荐"></a>游戏本的推荐</h2><h3 id="5000以下"><a href="#5000以下" class="headerlink" title="5000以下"></a>5000以下</h3><p>这个价位基本上只能买到上一代CPU的库存机，再搭配1650这种上一代入门游戏显卡，16G内存和512G固态倒是都有，玩玩网游和一般的单机（不追求高画质）还是够用，不过如果你想玩跳票朋克2077这种大型单机还是有点艰难。而且因为这个价位的游戏本实在是不多，选择余地属实有限。</p><h4 id="Redmi-G"><a href="#Redmi-G" class="headerlink" title="Redmi G"></a>Redmi G</h4><p>参考价格：4999</p><p>参考配置：I5-10200H+16G内存+512G固态硬盘+GTX1650</p><p><img                       lazyload                     src="/images/loading.svg"                     data-src="https://cdn.jsdelivr.net/gh/duoduo03125/picX-image-store@master/redmi_g.5incw71mdjo0.jpg"                      alt="redmi_g"                ></p><p>优点：</p><p>1.屏幕为100%sRGB色域</p><p>2.小米毕竟还是个大品牌，售后不会差到哪里去。</p><p>缺点：</p><p>1.屏幕不是144HZ刷新率。</p><p>2.CPU为I5-10200H，就算在上一代也是比较拉跨的型号。</p><p>3.硬盘似乎为SATA协议，速度较慢。</p><h4 id="雷神911Air星战三代"><a href="#雷神911Air星战三代" class="headerlink" title="雷神911Air星战三代"></a>雷神911Air星战三代</h4><p><img                       lazyload                     src="/images/loading.svg"                     data-src="https://cdn.jsdelivr.net/gh/duoduo03125/picX-image-store@master/thunderbot.6lhn8kf13t80.jpg"                      alt="thunderbot"                ></p><p>参考价格：4999</p><p>参考配置：I5-10500H+16G内存+512G固态硬盘+GTX1650</p><p>优点：</p><p>1.CPU为I5-10500H，性能比Redmi G的那个10200H还是强不少。</p><p>2.硬盘是Nvme协议的，速度较快。</p><p>缺点：</p><p>1.USB接口只有两个，插完键鼠就没法再插U盘了。</p><p>2.屏幕素质，45%NTSC色域，还不是144HZ刷新率。</p><p>3.小品牌，售后成谜。</p><h3 id="5000——6000"><a href="#5000——6000" class="headerlink" title="5000——6000"></a>5000——6000</h3><p>这个价位应该是买游戏本的童鞋们最关注的，因为这个价位的本子性能完全够用，而且性价比高的型号也不少，选择也比较多。</p><h4 id="宏碁暗影骑士擎"><a href="#宏碁暗影骑士擎" class="headerlink" title="宏碁暗影骑士擎"></a>宏碁暗影骑士擎</h4><p>参考价格：5899</p><p>参考配置：I5-11400H+RTX3050（16G内存和512G固态是我挑选电脑的标配，所以以后都不写了）</p><p><img                       lazyload                     src="/images/loading.svg"                     data-src="https://cdn.jsdelivr.net/gh/duoduo03125/picX-image-store@master/acer.24j1ecop7ork.jpg"                      alt="acer"                ></p><p>优点：</p><p>1.屏幕素质不错，在这个价位能买到72%NTSC、144HZ刷新率的屏幕实属难得。</p><p>2.显卡使用了RTX3050，足够吊打同价位的一堆GTX1650了。</p><p>3.硬盘是Nvme协议的，实测读写能到2500+MB/S。</p><p>缺点：</p><p>1.不是独显直连（不知道这是什么也不要紧，这个价位考虑这玩意儿意义不大）</p><p>2.宏碁知名度比不上华硕、联想，不能拿来装B。</p><h4 id="神舟Z7-TA5NS高配版"><a href="#神舟Z7-TA5NS高配版" class="headerlink" title="神舟Z7-TA5NS高配版"></a>神舟Z7-TA5NS高配版</h4><p><img                       lazyload                     src="/images/loading.svg"                     data-src="https://cdn.jsdelivr.net/gh/duoduo03125/picX-image-store@master/hasee.3mt953zm6oy0.jpg"                      alt="hasee"                ></p><p>参考价格：5799（淘宝）</p><p>参考配置：I5-11400H+RTX3050</p><p>优点：</p><p>1.超高的性价比，神船在这一块属实牛B。</p><p>2.100%NTSC、144HZ刷新率的屏幕，足够打穿同价位机型。</p><p>缺点：</p><p>1.这个高配版实际上是店家魔改了屏幕，官方版的屏幕为45色域。</p><p>2.神船的保修本来就饱受诟病，这款魔改机型的屏幕由淘宝店家负责保修，风险更大。</p><p>3.傻大黑粗的颜值</p><p><strong>本文未完待续……</strong></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;strong&gt;最近有好多人（两个）请我推荐电脑，其中还发生了一起明明追求屏幕素质最后却买了天选2（屏幕很一般）的惨剧。为了帮助对电脑不太了解的同学，duoduo决定自己写一篇笔记本推荐。个人观点，仅供参考。&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&quot;duoduo挑选电脑的</summary>
+      
+    
+    
+    
+    <category term="推荐" scheme="http://example.com/categories/%E6%8E%A8%E8%8D%90/"/>
+    
+    
+    <category term="电脑" scheme="http://example.com/tags/%E7%94%B5%E8%84%91/"/>
+    
+  </entry>
   
   <entry>
     <title>新生笔记本建议配置（整活版）</title>
