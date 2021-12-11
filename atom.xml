@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-12-11T12:55:33.194Z</updated>
+  <updated>2021-12-11T14:19:46.739Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,21 +17,25 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title></title>
+    <title>Type-c耳机插电脑不识别，怎么会事捏？</title>
     <link href="http://example.com/2021/12/11/Type-c%E8%80%B3%E6%9C%BA%E6%8F%92%E7%94%B5%E8%84%91%E4%B8%8D%E8%AF%86%E5%88%AB%EF%BC%8C%E6%80%8E%E4%B9%88%E4%BC%9A%E4%BA%8B%E6%8D%8F%EF%BC%9F/"/>
     <id>http://example.com/2021/12/11/Type-c%E8%80%B3%E6%9C%BA%E6%8F%92%E7%94%B5%E8%84%91%E4%B8%8D%E8%AF%86%E5%88%AB%EF%BC%8C%E6%80%8E%E4%B9%88%E4%BC%9A%E4%BA%8B%E6%8D%8F%EF%BC%9F/</id>
-    <published>2021-12-11T12:52:42.640Z</published>
-    <updated>2021-12-11T12:55:33.194Z</updated>
+    <published>2021-12-11T12:55:00.000Z</published>
+    <updated>2021-12-11T14:19:46.739Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="Type-c耳机插电脑不识别，怎么会事捏？"><a href="#Type-c耳机插电脑不识别，怎么会事捏？" class="headerlink" title="Type-c耳机插电脑不识别，怎么会事捏？"></a>Type-c耳机插电脑不识别，怎么会事捏？</h1><hr><p>title: Type-c耳机插电脑不识别，怎么会事捏？<br>date: 2021-12-11 20:55<br>categories: 折腾<br>tags: </p><hr><p>转自NJU it侠公众号（当然是我写的）。</p><p><strong>文长不看版：如果想使用type-c接口的耳机，电脑、耳机和转接头三者之中必须至少有一个配备数字解码芯片。</strong></p><h2 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h2><p>某天，侠侠接到了这样一个预约单。</p><p><img                       lazyload                     src="/images/loading.svg"                     data-src="https://cdn.jsdelivr.net/gh/duoduo03125/picX-image-store@master/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE-2021-12-11-144456.3qdnfv5g45w0.png"                      alt="屏幕截图-2021-12-11-144456"                ></p><p>同学表示：“耳机在我的手机和室友的手机上都可以正常使用，但插到电脑上就是不行。”同时，侠侠注意到同学使用的是type-C接口（就是给手机充电的那个方形口）的耳机而不是常见的3.5mm接口（就是那个现在很多手机都取消掉的圆口）的耳机。侠侠把耳机插上同学的电脑，果然在设备管理器里找不到耳机，说明电脑没有能识别耳机，自然也就不能通过耳机输出音频。侠侠又用自己的3.5mm接口耳机搭配一根普通的3.5mm转type-c转接头试了一下，也不能识别。</p><p>怎么会事捏（怎么回事呢）？</p><h2 id="原因"><a href="#原因" class="headerlink" title="原因"></a>原因</h2><p>原因在于很多笔记本电脑都没有配备数字解码芯片。简单来说，想要通过type-c接口输出音频，就需要对音频进行解码。负责解码的芯片可以放在多个位置，既可以放在手机/电脑等前端上，也可以放在耳机上，还可以放在转接头上。手机基本都配备了数字解码芯片，因此即使没有配备解码芯片的耳机和转接头也可以正常输出音频。但到了笔记本电脑上，情况就不一样了。因为大部分笔记本电脑都配备了3.5mm耳机孔，所以厂商为了节约成本就不会再配备数字解码芯片了。这就导致很多type-c耳机并不能在笔记本电脑上使用。大部分type-c耳机及转接头不能在ipad pro上使用也是同理。</p><h2 id="解决方案"><a href="#解决方案" class="headerlink" title="解决方案"></a>解决方案</h2><ol><li>使用3.5mm耳机。如果你的手机没有3.5mm耳机孔的话，想用手机听歌就必须再购买一个3.5mm转type-c转接头。</li><li>使用蓝牙耳机。</li><li>使用自带数字解码芯片的type-c耳机。一般来说，如果耳机配备了数字解码芯片，会被卖家当成一个卖点来宣传，比如下面这个。所谓dac解码芯片就是我们之前说的数字解码芯片。<br><img                       lazyload                     src="/images/loading.svg"                     data-src="https://cdn.jsdelivr.net/gh/duoduo03125/picX-image-store@master/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE-2021-12-11-151116.2z32u60qi2q0.png"                      alt="屏幕截图-2021-12-11-151116"                ></li></ol>]]></content>
+    <content type="html"><![CDATA[<p>转自NJU it侠公众号（当然是我写的）。</p><p><strong>文长不看版：如果想使用type-c接口的耳机，电脑、耳机和转接头三者之中必须至少有一个配备数字解码芯片。</strong></p><h2 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h2><p>某天，侠侠接到了这样一个预约单。</p><p><img                       lazyload                     src="/images/loading.svg"                     data-src="https://cdn.jsdelivr.net/gh/duoduo03125/picX-image-store@master/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE-2021-12-11-144456.3qdnfv5g45w0.png"                      alt="屏幕截图-2021-12-11-144456"                ></p><p>同学表示：“耳机在我的手机和室友的手机上都可以正常使用，但插到电脑上就是不行。”同时，侠侠注意到同学使用的是type-C接口（就是给手机充电的那个方形口）的耳机而不是常见的3.5mm接口（就是那个现在很多手机都取消掉的圆口）的耳机。侠侠把耳机插上同学的电脑，果然在设备管理器里找不到耳机，说明电脑没有能识别耳机，自然也就不能通过耳机输出音频。侠侠又用自己的3.5mm接口耳机搭配一根普通的3.5mm转type-c转接头试了一下，也不能识别。</p><p>怎么会事捏（怎么回事呢）？</p><h2 id="原因"><a href="#原因" class="headerlink" title="原因"></a>原因</h2><p>原因在于很多笔记本电脑都没有配备数字解码芯片。简单来说，想要通过type-c接口输出音频，就需要对音频进行解码。负责解码的芯片可以放在多个位置，既可以放在手机/电脑等前端上，也可以放在耳机上，还可以放在转接头上。手机基本都配备了数字解码芯片，因此即使没有配备解码芯片的耳机和转接头也可以正常输出音频。但到了笔记本电脑上，情况就不一样了。因为大部分笔记本电脑都配备了3.5mm耳机孔，所以厂商为了节约成本就不会再配备数字解码芯片了。这就导致很多type-c耳机并不能在笔记本电脑上使用。大部分type-c耳机及转接头不能在ipad pro上使用也是同理。</p><h2 id="解决方案"><a href="#解决方案" class="headerlink" title="解决方案"></a>解决方案</h2><ol><li>使用3.5mm耳机。如果你的手机没有3.5mm耳机孔的话，想用手机听歌就必须再购买一个3.5mm转type-c转接头。</li><li>使用蓝牙耳机。</li><li>使用自带数字解码芯片的type-c耳机。一般来说，如果耳机配备了数字解码芯片，会被卖家当成一个卖点来宣传，比如下面这个。所谓dac解码芯片就是我们之前说的数字解码芯片。<br><img                       lazyload                     src="/images/loading.svg"                     data-src="https://cdn.jsdelivr.net/gh/duoduo03125/picX-image-store@master/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE-2021-12-11-151116.2z32u60qi2q0.png"                      alt="屏幕截图-2021-12-11-151116"                ></li></ol>]]></content>
     
     
       
       
-    <summary type="html">&lt;h1 id=&quot;Type-c耳机插电脑不识别，怎么会事捏？&quot;&gt;&lt;a href=&quot;#Type-c耳机插电脑不识别，怎么会事捏？&quot; class=&quot;headerlink&quot; title=&quot;Type-c耳机插电脑不识别，怎么会事捏？&quot;&gt;&lt;/a&gt;Type-c耳机插电脑不识别，怎么会事捏？&lt;/</summary>
+    <summary type="html">&lt;p&gt;转自NJU it侠公众号（当然是我写的）。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;文长不看版：如果想使用type-c接口的耳机，电脑、耳机和转接头三者之中必须至少有一个配备数字解码芯片。&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&quot;问题&quot;&gt;&lt;a href=&quot;#问题&quot; class=&quot;h</summary>
       
     
     
+    
+    <category term="折腾" scheme="http://example.com/categories/%E6%8A%98%E8%85%BE/"/>
     
     
   </entry>
