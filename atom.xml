@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-12-18T15:35:59.039Z</updated>
+  <updated>2022-02-02T08:46:33.431Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>关于我除夕还在刷机这回事</title>
+    <link href="http://example.com/2022/02/01/%E5%85%B3%E4%BA%8E%E6%88%91%E9%99%A4%E5%A4%95%E8%BF%98%E5%9C%A8%E5%88%B7%E6%9C%BA%E8%BF%99%E5%9B%9E%E4%BA%8B/"/>
+    <id>http://example.com/2022/02/01/%E5%85%B3%E4%BA%8E%E6%88%91%E9%99%A4%E5%A4%95%E8%BF%98%E5%9C%A8%E5%88%B7%E6%9C%BA%E8%BF%99%E5%9B%9E%E4%BA%8B/</id>
+    <published>2022-02-01T07:39:20.000Z</published>
+    <updated>2022-02-02T08:46:33.431Z</updated>
+    
+    <content type="html"><![CDATA[<p>这个事情要从我闲鱼上手了一部三星S10e开始说起。S10e到手之后，那是哪哪都满意，手感奇佳，性能够用，屏幕素质好（说是全亮度低频PWM调光，但我在这方面并不是特别敏感）。作为日用机，三星S10e是近乎完美的，不过血崩的续航、没有高刷、不能解锁bl和不能root等缺点让我这个喜欢玩游戏和折腾模块的人始终无法接受。于是我的旧主力机K40就被赋予了游戏机和刷机的重任。但K40的屏幕实在不太行，稳定版MIUI13又没有DC调光，用完S10e再用K40，我的眼睛直呼不爽。那就换机吧，然而看来看去，在相机、屏幕、性能、价格上都让我满意的居然是小米11！这种年度智检机我怎么可能会买。那就来给K40刷个机吧（手动滑稽）！于是乎，在除夕的早晨，我开始把数据备份出来，开始刷类原生，这次我打算刷的系统是evolutionX。</p><p>作为新兴类原生，evolutionX官方是没有像los一样提供rec的，同时也没有线刷包。怎么才能用在安卓12下不能解密data分区的TWRP3.6.0刷入安卓12的rom呢。诶，可以先降级回安卓11啊。几个月前我因为magisk刷不进去，一气之下从MIUI EU的开发版刷回国内版MIUI的稳定版，当时使用的线刷包还在，版本是12.5.18，安卓版本当然是安卓11。MIUI线刷包的架构有些奇怪，flash脚本并不像类原生rom的线刷包一样可以直接运行（至少我不行）。好在小米为刷机党提供了miflash这个官方刷机工具（虽然上一次更新还是在20年）。打开miflash，载入设备，选择刷机包，修改刷机模式为全部删除，然后运行就好了。miflash的默认刷机模式是全部删除并上锁，刷完之后你的bl锁就会被锁回去。之前有一次刷机忘记改了，好在又一次解锁不需要等168。miflash跑完，手机会自动重启，但miflash会显示刷机失败，不要管他，手机正常开机就行。</p><p>开机之后会进入miui12.5的设置界面，不过我可不需要体验“激动人心”的MIUI了。直接关机，进bl，连接电脑，通过fastboot启动twrp。在TWRP中打开adb sideload模式，用sideload命令将evolutionX的包刷入手机，然后重启进rec。等等，怎么没进rec？似乎是因为我没有将twrp刷入手机，不管了，反正twrp在安卓12下不能解密data，约等于啥也干不了。接着按照evolutionX官方的指示，在twrp中format data并使用adb sideload刷入magisk。你问我TWRP怎么能格式化data分区？我也不知道，但官方是这么说的，我也就这么干，反正能开机就行（x）。重启进系统，开机啦！</p><p>evolutionX内置了GAPPS，因此开机需要谷歌验证。我当然没有插卡，但跳过SIM卡之后它会强制你连接WIFI。如果没有全局珂雪尚惘，这个事情还是比较棘手的。不过通过一些不可描述的操作，我还是成功进入了系统。</p><p>evolutionX内置的启动器是pixel launcher，不过我一直都不喜欢这个风格，果断拿出提前下载好的lawnchair和quickswitch。但我这里犯了一个错误，本来应该先将默认启动器切换到lawnchair，再启用quickswitch，但我直接启用quickswitch并重启了。结果就是pixel launcher直接炸掉，重启之后连桌面都进不去。好在evolutionX在开机时就弹出对话框问你是否打开USB调试，而我当然选择要打开。那么这个时候就可以用adb做些文章。将手机连接电脑（事实上一直连着），在放有adb工具的文件夹内打开powershell，通过adb命令可以打开手机的设置（命令网上能查到，直接复制粘贴就行，我就不贴在这里了），接下来将默认启动器改为lawnchair即可。</p><p>然后就是漫长的“毛坯房装修”时间，启动器这边用lawnchair+quickswitch+cayicon+小圆图标包，算是非常好看了。lawnchair是一个良好的基底，quickswitch提供流畅的动画，cayicon为桌面补全自适应的图标配色，小圆图标包则为抽屉里的软件提供好看的图标。</p><p><img                       lazyload                     src="/images/loading.svg"                     data-src="https://cdn.jsdelivr.net/gh/duoduo03125/picX-image-store@master/Screenshot_20220202-160908_Lawnchair.5jlbtn4ukok0.webp"                      alt="Screenshot_20220202-160908_Lawnchair"                ></p><p>调度的话，yc的uperf因为和evolutionX自带的动态刷新率冲突，刷入之后会锁60HZ，无奈之下只得换用ct调度，不得不说，ct调度在做了图形界面的manager之后，配置起来比只能修改文件的uperf方便一些。后台管控当然是经典黑阈+小黑屋，QQ和微信压得死死的。不过黑阈对后台的管控对我而言有些太过于激进了，有时候想把QQ和微信挂在后台接收信息也还是会被杀掉。</p><p>EvolutionX一个让人非常舒服的地方是它自带动态刷新率功能，而且刷新率切换非常灵敏，也没有色差，好评！设置里面的自定义选项很多，字体也提供很多选择，包括google sans、harmony sans、oneplus sans等等，不过misans和兰亭pro都是没有滴，有点令人失望。</p><p>小窗自然是没有的，米窗的适配也并不让人满意。好几次打着游戏想开小窗回个消息，结果直接卡退了，很让人烦躁。小窗使用频率较高的朋友们可以放弃这个rom了。</p><p>最后贴一下自己在用的magisk模块。<br><img                       lazyload                     src="/images/loading.svg"                     data-src="https://cdn.jsdelivr.net/gh/duoduo03125/picX-image-store@master/Screenshot_20220202-163806_Magisk.3i3lmf8azoc0.webp"                      alt="Screenshot_20220202-163806_Magisk"                ></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;这个事情要从我闲鱼上手了一部三星S10e开始说起。S10e到手之后，那是哪哪都满意，手感奇佳，性能够用，屏幕素质好（说是全亮度低频PWM调光，但我在这方面并不是特别敏感）。作为日用机，三星S10e是近乎完美的，不过血崩的续航、没有高刷、不能解锁bl和不能root等缺点让我这</summary>
+      
+    
+    
+    
+    <category term="折腾" scheme="http://example.com/categories/%E6%8A%98%E8%85%BE/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>来自2021年底的nokia 7plus体验报告</title>
