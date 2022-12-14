@@ -17,12 +17,16 @@
 <link rel="stylesheet" href="/css/style.css">
 
     <link rel="shortcut icon" href="/images/logo.svg">
-    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.4.3/source/css/font-awesome.min.css">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.5.2/source/fontawesome/css/fontawesome.min.css">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.5.2/source/fontawesome/css/regular.min.css">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.5.2/source/fontawesome/css/solid.min.css">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.5.2/source/fontawesome/css/brands.min.css">
     <script id="hexo-configurations">
     let KEEP = window.KEEP || {};
     KEEP.hexo_config = {"hostname":"example.com","root":"/","language":"zh-hans","path":"search.json"};
-    KEEP.theme_config = {"toc":{"enable":true,"number":false,"expand_all":false,"init_open":true},"style":{"primary_color":"#006600","avatar":"/images/doge.jpg","favicon":"/images/logo.svg","article_img_align":"left","left_side_width":"260px","content_max_width":"920px","hover":{"shadow":true,"scale":true},"first_screen":{"enable":true,"background_img":"/images/selena.png","header_transparent":true,"description":"你在等待何人？"},"scroll":{"progress_bar":{"enable":false},"percent":{"enable":true}}},"local_search":{"enable":true,"preload":false},"code_copy":{"enable":true,"style":"default"},"pjax":{"enable":true},"lazyload":{"enable":true},"version":"3.4.3"};
+    KEEP.theme_config = {"toc":{"enable":true,"number":false,"expand_all":false,"init_open":true},"style":{"primary_color":"#ad7d78","logo":"/images/logo.svg","avatar":"/images/doge.jpg","favicon":"/images/logo.svg","font_size":null,"font_family":"WenQuanYi Micro Hei","hover":{"shadow":true,"scale":true},"first_screen":{"enable":true,"header_transparent":true,"background_img":"https://cdn.staticaly.com/gh/duoduo03125/picX-image-store@master/94194702_p0.3uu36tbwl6.webp","description":"We will meet each other again || when yesterday once more.","font_color":"#ad7d78","kitokoto":false},"scroll":{"progress_bar":false,"percent":true}},"local_search":{"enable":true,"preload":false},"code_copy":{},"code_block":{"tools":{"enable":true,"style":"default"},"highlight_theme":"default"},"side_tools":{},"pjax":{"enable":true},"lazyload":{"enable":true},"comment":{"enable":true,"use":"valine","valine":{"appid":"bSz1mOQrpvyE4kRINcUrbBW9-gzGzoHsz","appkey":"cat36xO38x5fydzXwcqjI5Ic","placeholder":"欢迎吐槽233333......"},"gitalk":{"github_id":null,"repository":null,"client_id":null,"client_secret":null},"twikoo":{"env_id":null,"region":null,"version":"1.6.7"},"waline":{"server_url":null,"reaction":false,"version":2}},"post":{"word_count":{"enable":true,"wordcount":true,"min2read":true},"author_label":{"enable":false,"auto":false,"custom_label_list":["Trainee","Engineer","Architect","CTO","BOSS"]},"img_align":"left","copyright_info":true},"version":"3.5.2"};
     KEEP.language_ago = {"second":"%s seconds ago","minute":"%s minutes ago","hour":"%s hours ago","day":"%s days ago","week":"%s weeks ago","month":"%s months ago","year":"%s years ago"};
+    KEEP.language_code_block = {"copy":"Copy code","copied":"Copied","fold":"Fold code block","folded":"Folded"};
   </script>
 <meta name="generator" content="Hexo 5.4.0"><link rel="alternate" href="/atom.xml" title="duoduo乱写一气的地方" type="application/atom+xml">
 </head>
@@ -34,9 +38,7 @@
 
     
         <span class="pjax-progress-bar"></span>
-        <span class="pjax-progress-icon">
-            <i class="fas fa-circle-notch fa-spin"></i>
-        </span>
+        <i class="pjax-progress-icon fas fa-circle-notch fa-spin"></i>
     
 </div>
 
@@ -48,13 +50,18 @@
     <div class="page-main-content">
 
         <div class="page-main-content-top">
-            <header class="header-wrapper">
+            
+<header class="header-wrapper">
 
     <div class="header-content">
         <div class="left">
             
+                <a class="logo-image" href="/">
+                    <img src="/images/logo.svg">
+                </a>
+            
             <a class="logo-title" href="/">
-                duoduo瞎扯一气的地方
+               duoduo瞎扯一气的地方
             </a>
         </div>
 
@@ -66,7 +73,7 @@
                             <a class=""
                                href="/"
                             >
-                                主页
+                                首页
                             </a>
                         </li>
                     
@@ -117,7 +124,7 @@
             
                 <li class="drawer-menu-item flex-center">
                     <a class=""
-                       href="/">主页</a>
+                       href="/">首页</a>
                 </li>
             
                 <li class="drawer-menu-item flex-center">
@@ -151,27 +158,39 @@
 
                 
                     <div class="fade-in-down-animation">
-    <div class="article-content-container">
+    <div class="post-page-container">
+        <div class="article-content-container">
 
-        <div class="article-title">
-            <span class="title-hover-animation">文科生的搞机记录</span>
-        </div>
+            <div class="article-title">
+                <span class="title-hover-animation">文科生的搞机记录</span>
+            </div>
 
-        
-            <div class="article-header">
-                <div class="avatar">
-                    <img src="/images/doge.jpg">
-                </div>
-                <div class="info">
-                    <div class="author">
-                        <span class="name">duoduo</span>
-                        
+            
+                <div class="article-header">
+                    <div class="avatar">
+                        <img src="/images/doge.jpg">
                     </div>
-                    <div class="meta-info">
-                        <div class="article-meta-info">
+                    <div class="info">
+                        <div class="author">
+                            <span class="name">duoduo</span>
+                            
+                        </div>
+                        <div class="meta-info">
+                            
+<div class="article-meta-info">
     <span class="article-date article-meta-item">
-        <i class="fas fa-edit"></i>&nbsp;2021-07-27 15:30:36
+        
+            <i class="fa-regular fa-calendar-plus"></i>&nbsp;
+        
+        <span class="pc">2021-07-27 15:30:36</span>
+        <span class="mobile">2021-07-27 15:30</span>
     </span>
+    
+        <span class="article-update-date article-meta-item">
+        <i class="fas fa-file-pen"></i>&nbsp;
+        <span class="pc">2021-08-31 15:46:58</span>
+    </span>
+    
     
         <span class="article-categories article-meta-item">
             <i class="fas fa-folder"></i>&nbsp;
@@ -204,13 +223,13 @@
     
 </div>
 
+                        </div>
                     </div>
                 </div>
-            </div>
-        
+            
 
-        <div class="article-content markdown-body">
-            <h1 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h1><p>换了手机之后，受wendster大佬的蛊惑(doge)，打算把充满广告和无用系统应用的MIUI12刷掉。因为是初次刷机，而且所用的机型又是新出的红米K40，折腾的过程中还是碰到了很多问题。虽然现在手机已经刷好机并且能正常使用了，但还是把搞机的过程以及涉及到的软件和工具记录在此，以便以后查看。</p>
+            <div class="article-content keep-markdown-body">
+                <h1 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h1><p>换了手机之后，受wendster大佬的蛊惑(doge)，打算把充满广告和无用系统应用的MIUI12刷掉。因为是初次刷机，而且所用的机型又是新出的红米K40，折腾的过程中还是碰到了很多问题。虽然现在手机已经刷好机并且能正常使用了，但还是把搞机的过程以及涉及到的软件和工具记录在此，以便以后查看。</p>
 <h1 id="刷机"><a href="#刷机" class="headerlink" title="刷机"></a>刷机</h1><h2 id="需要的工具"><a href="#需要的工具" class="headerlink" title="需要的工具"></a>需要的工具</h2><p>1.小米解锁工具(miflash_unlock)：小米官网下载</p>
 <p>2.手机系统的线刷包：小米用户的话还是建议使用对应机型的MIUI EU，实际上就是国内版MIUI的去预装去广告加google版。类原生虽然轻巧简单，但是BUG有点多需要自己克服，像我这种不像搞事的人就算了，而且一堆的类原生提供的都是自己ROM的卡刷包。至于为什么不用卡刷包，等下细说。</p>
 <p>3.usb_driver：谷歌官方下载（不需科学上网）</p>
@@ -253,133 +272,141 @@
 <p>2.感谢XDA forum和酷安等平台上社区大神的默默奉献，让我们能够摆脱辣鸡系统和流氓软件。</p>
 <p><strong><del>最后的最后：愿你刷机半生，归来仍是MIUI。</del></strong></p>
 
-        </div>
+            </div>
 
-        
-            <div class="post-copyright-info">
-                <div class="article-copyright-info-container">
-    <ul>
-        <li>本文标题：文科生的搞机记录</li>
-        <li>本文作者：duoduo</li>
-        <li>创建时间：2021-07-27 15:30:36</li>
+            
+                <div class="post-copyright-info">
+                    <div class="article-copyright-info-container">
+    <ul class="copyright-info-content">
         <li>
-            本文链接：duoduo03125.github.io2021/07/27/文科生的搞机记录/
+            <span class="type">本文标题</span>：<span class="content">文科生的搞机记录</span>
         </li>
         <li>
-            版权声明：本博客所有文章除特别声明外，均采用 <a class="license" target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">BY-NC-SA</a> 许可协议。转载请注明出处！
+            <span class="type">本文作者</span>：<span class="content">duoduo</span>
+        </li>
+        <li>
+            <span class="type">创建时间</span>：<span class="content">2021-07-27 15:30:36</span>
+        </li>
+        <li class="post-link">
+            <span class="type">本文链接</span>：<span class="content">2021/07/27/文科生的搞机记录/</span>
+        </li>
+        <li>
+            <span class="type">版权声明</span>：<span class="content">本博客所有文章除特别声明外，均采用 <a class="license" target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">BY-NC-SA</a> 许可协议。转载请注明出处！</span>
         </li>
     </ul>
 </div>
 
-            </div>
-        
+                </div>
+            
 
-        
-            <div class="article-nav">
-                
-                    <div class="article-prev">
-                        <a class="prev"
-                           rel="prev"
-                           href="/2021/08/05/%E5%85%B3%E4%BA%8E%E5%8E%86%E5%8F%B2%E5%AD%A6%E4%B9%A0%E7%9A%84%E4%B8%80%E7%82%B9%E7%BB%8F%E9%AA%8C/"
-                        >
+            
+
+            
+                <div class="article-nav">
+                    
+                        <div class="article-prev">
+                            <a class="prev"
+                               rel="prev"
+                               href="/2021/08/05/%E5%85%B3%E4%BA%8E%E5%8E%86%E5%8F%B2%E5%AD%A6%E4%B9%A0%E7%9A%84%E4%B8%80%E7%82%B9%E7%BB%8F%E9%AA%8C/"
+                            >
                             <span class="left arrow-icon flex-center">
                               <i class="fas fa-chevron-left"></i>
                             </span>
-                            <span class="title flex-center">
+                                <span class="title flex-center">
                                 <span class="post-nav-title-item">关于历史学习的一点经验</span>
                                 <span class="post-nav-item">上一篇</span>
                             </span>
-                        </a>
-                    </div>
-                
-                
-                    <div class="article-next">
-                        <a class="next"
-                           rel="next"
-                           href="/2021/07/15/%E6%96%B0%E7%94%9F%E7%AC%94%E8%AE%B0%E6%9C%AC%E5%BB%BA%E8%AE%AE%E9%85%8D%E7%BD%AE%EF%BC%88%E6%95%B4%E6%B4%BB%E7%89%88%EF%BC%89/"
-                        >
+                            </a>
+                        </div>
+                    
+                    
+                        <div class="article-next">
+                            <a class="next"
+                               rel="next"
+                               href="/2021/07/15/%E6%96%B0%E7%94%9F%E7%AC%94%E8%AE%B0%E6%9C%AC%E5%BB%BA%E8%AE%AE%E9%85%8D%E7%BD%AE%EF%BC%88%E6%95%B4%E6%B4%BB%E7%89%88%EF%BC%89/"
+                            >
                             <span class="title flex-center">
                                 <span class="post-nav-title-item">新生笔记本建议配置（整活版）</span>
                                 <span class="post-nav-item">下一篇</span>
                             </span>
-                            <span class="right arrow-icon flex-center">
+                                <span class="right arrow-icon flex-center">
                               <i class="fas fa-chevron-right"></i>
                             </span>
-                        </a>
-                    </div>
-                
-            </div>
-        
+                            </a>
+                        </div>
+                    
+                </div>
+            
 
-        
-            <div class="comment-container">
-                <div class="comments-container">
-    <div id="comment-anchor"></div>
+            
+                <div class="comment-container">
+                    
+<div class="comments-container">
+    <div id="comments-anchor"></div>
     <div class="comment-area-title">
-        <i class="fas fa-comments">&nbsp;评论</i>
+        <i class="fas fa-comments"></i>&nbsp;评论
     </div>
     
-
         
             
+
     <div class="valine-container">
-        <script data-pjax
-                src="//cdn.jsdelivr.net/npm/valine@latest/dist/Valine.min.js"></script>
+        <script data-pjax src="//cdn.jsdelivr.net/npm/valine@latest/dist/Valine.min.js"></script>
         <div id="vcomments"></div>
         <script data-pjax>
-            function loadValine() {
-                new Valine({
-                    el: '#vcomments',
-                    appId: 'bSz1mOQrpvyE4kRINcUrbBW9-gzGzoHsz',
-                    appKey: 'cat36xO38x5fydzXwcqjI5Ic',
-                    meta: ['nick', 'mail', 'link'],
-                    avatar: 'wavatar',
-                    enableQQ: true,
-                    placeholder: '欢迎吐槽233333......',
-                    lang: 'zh-hans'.toLowerCase()
-                });
+          function loadValine() {
+            new Valine({
+              el: '#vcomments',
+              appId: 'bSz1mOQrpvyE4kRINcUrbBW9-gzGzoHsz',
+              appKey: 'cat36xO38x5fydzXwcqjI5Ic',
+              meta: ['nick', 'mail', 'link'],
+              avatar: 'wavatar',
+              enableQQ: true,
+              placeholder: '欢迎吐槽233333......',
+              lang: 'zh-hans'.toLowerCase()
+            });
 
-                function getAuthor(language) {
-                    switch (language) {
-                        case 'en':
-                            return 'Author';
-                        case 'zh-CN':
-                            return '博主';
-                        default:
-                            return 'Master';
+            function getAuthor(language) {
+              switch (language) {
+                case 'en':
+                  return 'Author';
+                case 'zh-CN':
+                  return '博主';
+                default:
+                  return 'Master';
+              }
+            }
+
+            // Add "Author" identify
+            const getValineDomTimer = setInterval(() => {
+              const vcards = document.querySelectorAll('#vcomments .vcards .vcard');
+              if (vcards.length > 0) {
+                let author = 'duoduo';
+
+                if (author) {
+                  for (let vcard of vcards) {
+                    const vnick_dom = vcard.querySelector('.vhead .vnick');
+                    const vnick = vnick_dom.innerHTML;
+                    if (vnick === author) {
+                      vnick_dom.innerHTML = `${vnick} <span class="author">${getAuthor(KEEP.hexo_config.language)}</span>`
                     }
+                  }
                 }
+                clearInterval(getValineDomTimer);
+              } else {
+                clearInterval(getValineDomTimer);
+              }
+            }, 2000);
+          }
 
-                // Add "Author" identify
-                const getValineDomTimer = setInterval(() => {
-                    const vcards = document.querySelectorAll('#vcomments .vcards .vcard');
-                    if (vcards.length > 0) {
-                        let author = 'duoduo';
-
-                        if (author) {
-                            for (let vcard of vcards) {
-                                const vnick_dom = vcard.querySelector('.vhead .vnick');
-                                const vnick = vnick_dom.innerHTML;
-                                if (vnick === author) {
-                                    vnick_dom.innerHTML = `${vnick} <span class="author">${getAuthor(KEEP.hexo_config.language)}</span>`
-                                }
-                            }
-                        }
-                        clearInterval(getValineDomTimer);
-                    } else {
-                        clearInterval(getValineDomTimer);
-                    }
-                }, 2000);
-            }
-
-            if ('true') {
-                const loadValineTimeout = setTimeout(() => {
-                    loadValine();
-                    clearTimeout(loadValineTimeout);
-                }, 1000);
-            } else {
-                window.addEventListener('DOMContentLoaded', loadValine);
-            }
+          if ('true' === 'true') {
+            const loadValineTimeout = setTimeout(() => {
+              loadValine();
+              clearTimeout(loadValineTimeout);
+            }, 1000);
+          } else {
+            window.addEventListener('DOMContentLoaded', loadValine);
+          }
         </script>
     </div>
 
@@ -387,6 +414,18 @@
 
         
     
+</div>
+
+                </div>
+            
+        </div>
+
+        
+            <div class="toc-content-container">
+                <div class="post-toc-wrap">
+    <div class="post-toc">
+        <ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E8%83%8C%E6%99%AF"><span class="nav-text">背景</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%88%B7%E6%9C%BA"><span class="nav-text">刷机</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%9C%80%E8%A6%81%E7%9A%84%E5%B7%A5%E5%85%B7"><span class="nav-text">需要的工具</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%A7%A3BL%E9%94%81"><span class="nav-text">解BL锁</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%88%B7%E6%9C%BA-1"><span class="nav-text">刷机</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%AD%A3%E7%A1%AE%E6%AD%A5%E9%AA%A4"><span class="nav-text">正确步骤</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%B8%A9%E5%9D%91%E8%AE%B0%E5%BD%95%EF%BC%88%E4%B8%8D%E8%A6%81%E5%AD%A6%EF%BC%89"><span class="nav-text">踩坑记录（不要学）</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E9%80%9A%E8%BF%87TWRP%E5%8D%A1%E5%88%B7MIUI-EU"><span class="nav-text">通过TWRP卡刷MIUI EU</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%AF%94%E5%9B%BD%E5%86%85%E7%89%88%E6%9B%B4%E8%BE%A3%E9%B8%A1%E7%9A%84MIUI-EEA"><span class="nav-text">比国内版更辣鸡的MIUI EEA</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E7%96%91%E4%BC%BC%E7%94%A8%E6%88%91%E6%89%8B%E6%9C%BA%E6%8C%96%E7%9F%BF-bushi-%E7%9A%84Pixel-Extended"><span class="nav-text">疑似用我手机挖矿(bushi)的Pixel Extended</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%BE%88%E5%A5%BD%E7%94%A8%E4%BD%86%E6%98%AF%E6%B2%A1%E6%9C%89%E7%9B%B8%E6%9C%BA%E7%9A%84syberia"><span class="nav-text">很好用但是没有相机的syberia</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E7%95%8C%E9%9D%A2%E5%B7%A8%E4%B8%91%E7%9A%84nusantara"><span class="nav-text">界面巨丑的nusantara</span></a></li></ol></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%AE%89%E8%A3%85magisk%E5%92%8CEdxposed"><span class="nav-text">安装magisk和Edxposed</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%9C%80%E8%A6%81%E7%9A%84%E5%B7%A5%E5%85%B7-1"><span class="nav-text">需要的工具</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%B0%86magisk%E5%AE%89%E8%A3%85%E5%8C%85%E4%BC%A0%E5%85%A5%E6%89%8B%E6%9C%BA"><span class="nav-text">将magisk安装包传入手机</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%90%AF%E5%8A%A8TWRP"><span class="nav-text">启动TWRP</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AE%89%E8%A3%85magisk%E6%A8%A1%E5%9D%97"><span class="nav-text">安装magisk模块</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AE%89%E8%A3%85magisk-APP"><span class="nav-text">安装magisk APP</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%A5%BD%E7%94%A8%E7%9A%84magisk%E6%A8%A1%E5%9D%97%E6%8E%A8%E8%8D%90"><span class="nav-text">好用的magisk模块推荐</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%A5%BD%E7%94%A8%E7%9A%84Edxposed%E6%A8%A1%E5%9D%97%E6%8E%A8%E8%8D%90"><span class="nav-text">好用的Edxposed模块推荐</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E4%B8%80%E4%BA%9B%E5%A5%BD%E7%94%A8%E7%9A%84%E8%BD%AF%E4%BB%B6"><span class="nav-text">一些好用的软件</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%84%9F%E8%B0%A2"><span class="nav-text">感谢</span></a></li></ol>
+    </div>
 </div>
 
             </div>
@@ -401,33 +440,36 @@
         </div>
 
         <div class="page-main-content-bottom">
-            <footer class="footer">
+            
+<footer class="footer">
     <div class="info-container">
         <div class="copyright-info info-item">
             &copy;
             
-              <span>2021</span>&nbsp;-&nbsp;
+                <span>2021</span> -
             
-            2022&nbsp;<i class="fas fa-heart icon-animate"></i>&nbsp;<a href="/">duoduo</a>
+            2022
+            
+                &nbsp;<i class="fas fa-heart icon-animate"></i>
+                &nbsp;<a href="/">duoduo</a>
+            
         </div>
         
-            <script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+            <script async data-pjax
+                    src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
             <div class="website-count info-item">
                 
-                    <span id="busuanzi_container_site_uv">
-                        访问人数&nbsp;<span id="busuanzi_value_site_uv"></span>&ensp;
-                    </span>
+                    访问人数&nbsp;<span id="busuanzi_value_site_uv"></span>&ensp;
                 
                 
-                    <span id="busuanzi_container_site_pv">
-                        总访问量&nbsp;<span id="busuanzi_value_site_pv"></span>
-                    </span>
+                    总访问量&nbsp;<span id="busuanzi_value_site_pv"></span>
                 
             </div>
         
         <div class="theme-info info-item">
-            由 <a target="_blank" href="https://hexo.io">Hexo</a> 驱动&nbsp;|&nbsp;主题&nbsp;<a class="theme-version" target="_blank" href="https://github.com/XPoet/hexo-theme-keep">Keep v3.4.3</a>
+            由 <a target="_blank" href="https://hexo.io">Hexo</a> 驱动&nbsp;|&nbsp;主题&nbsp;<a class="theme-version" target="_blank" href="https://github.com/XPoet/hexo-theme-keep">Keep v3.5.2</a>
         </div>
+        
         
     </div>
 </footer>
@@ -441,15 +483,16 @@
     <ul class="tools-list">
         <!-- TOC aside toggle -->
         
-            <li class="tools-item page-aside-toggle">
-                <i class="fas fa-outdent"></i>
+            <li class="tools-item flex-center toggle-show-toc">
+                <i class="fas fa-list"></i>
             </li>
         
 
         <!-- go comment -->
         
-            <li class="go-comment">
+            <li class="tools-item flex-center go-to-comments">
                 <i class="fas fa-comment"></i>
+                <span class="post-comments-count"></span>
             </li>
         
     </ul>
@@ -467,10 +510,6 @@
 
         <li class="tools-item tool-font-adjust-minus flex-center">
             <i class="fas fa-search-minus"></i>
-        </li>
-
-        <li class="tools-item tool-expand-width flex-center">
-            <i class="fas fa-arrows-alt-h"></i>
         </li>
 
         <li class="tools-item tool-dark-light-toggle flex-center">
@@ -502,18 +541,8 @@
 
     </div>
 
-    
-        <aside class="page-aside">
-            <div class="post-toc-wrap">
-    <div class="post-toc">
-        <ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E8%83%8C%E6%99%AF"><span class="nav-text">背景</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%88%B7%E6%9C%BA"><span class="nav-text">刷机</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%9C%80%E8%A6%81%E7%9A%84%E5%B7%A5%E5%85%B7"><span class="nav-text">需要的工具</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%A7%A3BL%E9%94%81"><span class="nav-text">解BL锁</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%88%B7%E6%9C%BA-1"><span class="nav-text">刷机</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%AD%A3%E7%A1%AE%E6%AD%A5%E9%AA%A4"><span class="nav-text">正确步骤</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%B8%A9%E5%9D%91%E8%AE%B0%E5%BD%95%EF%BC%88%E4%B8%8D%E8%A6%81%E5%AD%A6%EF%BC%89"><span class="nav-text">踩坑记录（不要学）</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E9%80%9A%E8%BF%87TWRP%E5%8D%A1%E5%88%B7MIUI-EU"><span class="nav-text">通过TWRP卡刷MIUI EU</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%AF%94%E5%9B%BD%E5%86%85%E7%89%88%E6%9B%B4%E8%BE%A3%E9%B8%A1%E7%9A%84MIUI-EEA"><span class="nav-text">比国内版更辣鸡的MIUI EEA</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E7%96%91%E4%BC%BC%E7%94%A8%E6%88%91%E6%89%8B%E6%9C%BA%E6%8C%96%E7%9F%BF-bushi-%E7%9A%84Pixel-Extended"><span class="nav-text">疑似用我手机挖矿(bushi)的Pixel Extended</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%BE%88%E5%A5%BD%E7%94%A8%E4%BD%86%E6%98%AF%E6%B2%A1%E6%9C%89%E7%9B%B8%E6%9C%BA%E7%9A%84syberia"><span class="nav-text">很好用但是没有相机的syberia</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E7%95%8C%E9%9D%A2%E5%B7%A8%E4%B8%91%E7%9A%84nusantara"><span class="nav-text">界面巨丑的nusantara</span></a></li></ol></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%AE%89%E8%A3%85magisk%E5%92%8CEdxposed"><span class="nav-text">安装magisk和Edxposed</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%9C%80%E8%A6%81%E7%9A%84%E5%B7%A5%E5%85%B7-1"><span class="nav-text">需要的工具</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%B0%86magisk%E5%AE%89%E8%A3%85%E5%8C%85%E4%BC%A0%E5%85%A5%E6%89%8B%E6%9C%BA"><span class="nav-text">将magisk安装包传入手机</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%90%AF%E5%8A%A8TWRP"><span class="nav-text">启动TWRP</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AE%89%E8%A3%85magisk%E6%A8%A1%E5%9D%97"><span class="nav-text">安装magisk模块</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AE%89%E8%A3%85magisk-APP"><span class="nav-text">安装magisk APP</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%A5%BD%E7%94%A8%E7%9A%84magisk%E6%A8%A1%E5%9D%97%E6%8E%A8%E8%8D%90"><span class="nav-text">好用的magisk模块推荐</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%A5%BD%E7%94%A8%E7%9A%84Edxposed%E6%A8%A1%E5%9D%97%E6%8E%A8%E8%8D%90"><span class="nav-text">好用的Edxposed模块推荐</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E4%B8%80%E4%BA%9B%E5%A5%BD%E7%94%A8%E7%9A%84%E8%BD%AF%E4%BB%B6"><span class="nav-text">一些好用的软件</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%84%9F%E8%B0%A2"><span class="nav-text">感谢</span></a></li></ol>
-    </div>
-</div>
-        </aside>
-    
-
-    <div class="image-viewer-container">
-    <img src="">
+    <div class="zoom-in-image-mask">
+    <img class="zoom-in-image">
 </div>
 
 
@@ -534,7 +563,7 @@
                        class="search-input"
                 >
             </div>
-            <span class="popup-btn-close">
+            <span class="close-popup-btn">
                 <i class="fas fa-times"></i>
             </span>
         </div>
@@ -552,28 +581,36 @@
 
 
 
-<script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.4.3/source/js/utils.js"></script><script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.4.3/source/js/main.js"></script><script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.4.3/source/js/header-shrink.js"></script><script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.4.3/source/js/back2top.js"></script><script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.4.3/source/js/dark-light-toggle.js"></script>
-
-
-    <script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.4.3/source/js/local-search.js"></script>
+<script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.5.2/source/js/utils.js"></script><script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.5.2/source/js/main.js"></script><script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.5.2/source/js/header-shrink.js"></script><script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.5.2/source/js/back2top.js"></script><script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.5.2/source/js/dark-light-toggle.js"></script>
 
 
 
-    <script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.4.3/source/js/code-copy.js"></script>
+
+    <script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.5.2/source/js/local-search.js"></script>
 
 
 
-    <script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.4.3/source/js/lazyload.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.5.2/source/js/code-block.js"></script>
+
+
+
+    <script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.5.2/source/js/lazyload.js"></script>
 
 
 <div class="post-scripts pjax">
     
-        <script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.4.3/source/js/left-side-toggle.js"></script><script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.4.3/source/js/libs/anime.min.js"></script><script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.4.3/source/js/toc.js"></script>
+        <script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.5.2/source/js/post-helper.js"></script>
+        
+            <script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.5.2/source/js/libs/anime.min.js"></script>
+        
+        
+            <script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.5.2/source/js/toc.js"></script>
+        
     
 </div>
 
 
-    <script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.4.3/source/js/libs/pjax.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.5.2/source/js/libs/pjax.min.js"></script>
 <script>
     window.addEventListener('DOMContentLoaded', () => {
         window.pjax = new Pjax({

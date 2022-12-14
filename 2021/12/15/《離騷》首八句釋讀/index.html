@@ -17,12 +17,16 @@
 <link rel="stylesheet" href="/css/style.css">
 
     <link rel="shortcut icon" href="/images/logo.svg">
-    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.4.3/source/css/font-awesome.min.css">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.5.2/source/fontawesome/css/fontawesome.min.css">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.5.2/source/fontawesome/css/regular.min.css">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.5.2/source/fontawesome/css/solid.min.css">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.5.2/source/fontawesome/css/brands.min.css">
     <script id="hexo-configurations">
     let KEEP = window.KEEP || {};
     KEEP.hexo_config = {"hostname":"example.com","root":"/","language":"zh-hans","path":"search.json"};
-    KEEP.theme_config = {"toc":{"enable":true,"number":false,"expand_all":false,"init_open":true},"style":{"primary_color":"#006600","avatar":"/images/doge.jpg","favicon":"/images/logo.svg","article_img_align":"left","left_side_width":"260px","content_max_width":"920px","hover":{"shadow":true,"scale":true},"first_screen":{"enable":true,"background_img":"/images/selena.png","header_transparent":true,"description":"你在等待何人？"},"scroll":{"progress_bar":{"enable":false},"percent":{"enable":true}}},"local_search":{"enable":true,"preload":false},"code_copy":{"enable":true,"style":"default"},"pjax":{"enable":true},"lazyload":{"enable":true},"version":"3.4.3"};
+    KEEP.theme_config = {"toc":{"enable":true,"number":false,"expand_all":false,"init_open":true},"style":{"primary_color":"#ad7d78","logo":"/images/logo.svg","avatar":"/images/doge.jpg","favicon":"/images/logo.svg","font_size":null,"font_family":"WenQuanYi Micro Hei","hover":{"shadow":true,"scale":true},"first_screen":{"enable":true,"header_transparent":true,"background_img":"https://cdn.staticaly.com/gh/duoduo03125/picX-image-store@master/94194702_p0.3uu36tbwl6.webp","description":"We will meet each other again || when yesterday once more.","font_color":"#ad7d78","kitokoto":false},"scroll":{"progress_bar":false,"percent":true}},"local_search":{"enable":true,"preload":false},"code_copy":{},"code_block":{"tools":{"enable":true,"style":"default"},"highlight_theme":"default"},"side_tools":{},"pjax":{"enable":true},"lazyload":{"enable":true},"comment":{"enable":true,"use":"valine","valine":{"appid":"bSz1mOQrpvyE4kRINcUrbBW9-gzGzoHsz","appkey":"cat36xO38x5fydzXwcqjI5Ic","placeholder":"欢迎吐槽233333......"},"gitalk":{"github_id":null,"repository":null,"client_id":null,"client_secret":null},"twikoo":{"env_id":null,"region":null,"version":"1.6.7"},"waline":{"server_url":null,"reaction":false,"version":2}},"post":{"word_count":{"enable":true,"wordcount":true,"min2read":true},"author_label":{"enable":false,"auto":false,"custom_label_list":["Trainee","Engineer","Architect","CTO","BOSS"]},"img_align":"left","copyright_info":true},"version":"3.5.2"};
     KEEP.language_ago = {"second":"%s seconds ago","minute":"%s minutes ago","hour":"%s hours ago","day":"%s days ago","week":"%s weeks ago","month":"%s months ago","year":"%s years ago"};
+    KEEP.language_code_block = {"copy":"Copy code","copied":"Copied","fold":"Fold code block","folded":"Folded"};
   </script>
 <meta name="generator" content="Hexo 5.4.0"><link rel="alternate" href="/atom.xml" title="duoduo乱写一气的地方" type="application/atom+xml">
 </head>
@@ -34,9 +38,7 @@
 
     
         <span class="pjax-progress-bar"></span>
-        <span class="pjax-progress-icon">
-            <i class="fas fa-circle-notch fa-spin"></i>
-        </span>
+        <i class="pjax-progress-icon fas fa-circle-notch fa-spin"></i>
     
 </div>
 
@@ -48,13 +50,18 @@
     <div class="page-main-content">
 
         <div class="page-main-content-top">
-            <header class="header-wrapper">
+            
+<header class="header-wrapper">
 
     <div class="header-content">
         <div class="left">
             
+                <a class="logo-image" href="/">
+                    <img src="/images/logo.svg">
+                </a>
+            
             <a class="logo-title" href="/">
-                duoduo瞎扯一气的地方
+               duoduo瞎扯一气的地方
             </a>
         </div>
 
@@ -66,7 +73,7 @@
                             <a class=""
                                href="/"
                             >
-                                主页
+                                首页
                             </a>
                         </li>
                     
@@ -117,7 +124,7 @@
             
                 <li class="drawer-menu-item flex-center">
                     <a class=""
-                       href="/">主页</a>
+                       href="/">首页</a>
                 </li>
             
                 <li class="drawer-menu-item flex-center">
@@ -151,27 +158,39 @@
 
                 
                     <div class="fade-in-down-animation">
-    <div class="article-content-container">
+    <div class="post-page-container">
+        <div class="article-content-container">
 
-        <div class="article-title">
-            <span class="title-hover-animation">《離騷》首八句釋讀</span>
-        </div>
+            <div class="article-title">
+                <span class="title-hover-animation">《離騷》首八句釋讀</span>
+            </div>
 
-        
-            <div class="article-header">
-                <div class="avatar">
-                    <img src="/images/doge.jpg">
-                </div>
-                <div class="info">
-                    <div class="author">
-                        <span class="name">duoduo</span>
-                        
+            
+                <div class="article-header">
+                    <div class="avatar">
+                        <img src="/images/doge.jpg">
                     </div>
-                    <div class="meta-info">
-                        <div class="article-meta-info">
+                    <div class="info">
+                        <div class="author">
+                            <span class="name">duoduo</span>
+                            
+                        </div>
+                        <div class="meta-info">
+                            
+<div class="article-meta-info">
     <span class="article-date article-meta-item">
-        <i class="fas fa-edit"></i>&nbsp;2021-12-15 21:37:47
+        
+            <i class="fa-regular fa-calendar-plus"></i>&nbsp;
+        
+        <span class="pc">2021-12-15 21:37:47</span>
+        <span class="mobile">2021-12-15 21:37</span>
     </span>
+    
+        <span class="article-update-date article-meta-item">
+        <i class="fas fa-file-pen"></i>&nbsp;
+        <span class="pc">2021-12-16 12:11:35</span>
+    </span>
+    
     
         <span class="article-categories article-meta-item">
             <i class="fas fa-folder"></i>&nbsp;
@@ -204,13 +223,13 @@
     
 </div>
 
+                        </div>
                     </div>
                 </div>
-            </div>
-        
+            
 
-        <div class="article-content markdown-body">
-            <p><strong>本文爲筆者古代文學課的小組報告，因此全文使用繁體字。</strong></p>
+            <div class="article-content keep-markdown-body">
+                <p><strong>本文爲筆者古代文學課的小組報告，因此全文使用繁體字。</strong></p>
 <p>原文：帝高陽之苗裔兮，朕皇考曰伯庸。攝提貞于孟陬兮，惟庚寅吾以降。皇覽揆余初度兮，肇錫余以嘉名。名余曰正則兮，字余曰靈均。</p>
 <p>在小組研究和討論當中，我們發現王逸《楚辭章句》和劉向《九歎》在很多關鍵字詞的解釋上出現了分歧，這些分歧導致二人對此八句的理解幾乎完全不同。而後世學者對於這些字詞的解釋往往都是從二者之一出發進行生發和擴展。因此將王說和劉說進行比較研讀是非常有必要的。此次釋讀我們並不會完全按照行文順序進行，而是先關注王說和劉說衝突的地方，再解釋其他的字詞。</p>
 <h2 id="王逸《楚辭章句》與劉向《九歎》之分歧"><a href="#王逸《楚辭章句》與劉向《九歎》之分歧" class="headerlink" title="王逸《楚辭章句》與劉向《九歎》之分歧"></a>王逸《楚辭章句》與劉向《九歎》之分歧</h2><h3 id="“皇考”與“伯庸”"><a href="#“皇考”與“伯庸”" class="headerlink" title="“皇考”與“伯庸”"></a>“皇考”與“伯庸”</h3><p>王逸《楚辭章句》：“皇，美也。父死稱考也。”，並且引《詩》“旣右烈考”一句爲證。《禮記·曲禮》也說“父曰皇考”。劉獻廷指出：“人死則行之事始可考，故父死曰‘考’。”，但不知何本。既然“皇考”是指父親，那麼“伯庸”就一定是指屈原的父親。王逸《章句》：“伯庸，字也。屈原言我父伯庸，體有美德，以忠輔楚，世有令名，以及於己。” 而呂廷濟認爲“伯庸，原父名也。”洪興祖《楚辭補注》則對呂說進行駁斥，指出“原爲人子，忍斥其父名乎？”此後，在“皇考”的解釋上支持王逸的學者們基本認同“伯庸”是屈父之字而非名的說法。</p>
@@ -242,133 +261,141 @@
 <p>陳直根據劉向對“肇”的解釋，認爲“屈子蓋本名平字原，因在伯庸祖廟卜名，得名曰正則，字曰靈均”。也就是說，屈子本名平字原，在祖廟占卜後改名正則改字靈均。但成年時改名改字似不合常理，也未見先例。</p>
 <p>王逸《章句》：“正，平也。則，法也。靈，神也。均，調也。言正平可法則者，莫過於天；養物均調者，莫神於地。高平曰原，故父名我爲平以法天，字我爲原以法地。言己上能安君，下能養民也。”此說證明了“正則”、“靈均”與“平”、“原”的關係。但王逸認爲此處的“正則”“靈均”就是屈子本人則不妥。經過前文的討論，《離騷》的主人公可以認爲是屈原塑造出的形象。這個形象名“正則”，字“靈均”，其中有屈子本人的影子。但“正則”是不是一定指“平”，“靈均”是不是一定指“原”則難以確定。王夫之說：“隱其名而取其義，以屬辭賦體然也。”這一觀點較爲恰當。</p>
 
-        </div>
+            </div>
 
-        
-            <div class="post-copyright-info">
-                <div class="article-copyright-info-container">
-    <ul>
-        <li>本文标题：《離騷》首八句釋讀</li>
-        <li>本文作者：duoduo</li>
-        <li>创建时间：2021-12-15 21:37:47</li>
+            
+                <div class="post-copyright-info">
+                    <div class="article-copyright-info-container">
+    <ul class="copyright-info-content">
         <li>
-            本文链接：duoduo03125.github.io2021/12/15/《離騷》首八句釋讀/
+            <span class="type">本文标题</span>：<span class="content">《離騷》首八句釋讀</span>
         </li>
         <li>
-            版权声明：本博客所有文章除特别声明外，均采用 <a class="license" target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">BY-NC-SA</a> 许可协议。转载请注明出处！
+            <span class="type">本文作者</span>：<span class="content">duoduo</span>
+        </li>
+        <li>
+            <span class="type">创建时间</span>：<span class="content">2021-12-15 21:37:47</span>
+        </li>
+        <li class="post-link">
+            <span class="type">本文链接</span>：<span class="content">2021/12/15/《離騷》首八句釋讀/</span>
+        </li>
+        <li>
+            <span class="type">版权声明</span>：<span class="content">本博客所有文章除特别声明外，均采用 <a class="license" target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">BY-NC-SA</a> 许可协议。转载请注明出处！</span>
         </li>
     </ul>
 </div>
 
-            </div>
-        
+                </div>
+            
 
-        
-            <div class="article-nav">
-                
-                    <div class="article-prev">
-                        <a class="prev"
-                           rel="prev"
-                           href="/2021/12/17/%E6%9D%A5%E8%87%AA2021%E5%B9%B4%E5%BA%95%E7%9A%84nokia-7plus%E4%BD%93%E9%AA%8C%E6%8A%A5%E5%91%8A/"
-                        >
+            
+
+            
+                <div class="article-nav">
+                    
+                        <div class="article-prev">
+                            <a class="prev"
+                               rel="prev"
+                               href="/2021/12/17/%E6%9D%A5%E8%87%AA2021%E5%B9%B4%E5%BA%95%E7%9A%84nokia-7plus%E4%BD%93%E9%AA%8C%E6%8A%A5%E5%91%8A/"
+                            >
                             <span class="left arrow-icon flex-center">
                               <i class="fas fa-chevron-left"></i>
                             </span>
-                            <span class="title flex-center">
+                                <span class="title flex-center">
                                 <span class="post-nav-title-item">来自2021年底的nokia 7plus体验报告</span>
                                 <span class="post-nav-item">上一篇</span>
                             </span>
-                        </a>
-                    </div>
-                
-                
-                    <div class="article-next">
-                        <a class="next"
-                           rel="next"
-                           href="/2021/08/18/duoduo%E7%9A%84%E7%AC%94%E8%AE%B0%E6%9C%AC%E6%8E%A8%E8%8D%90/"
-                        >
+                            </a>
+                        </div>
+                    
+                    
+                        <div class="article-next">
+                            <a class="next"
+                               rel="next"
+                               href="/2021/08/18/duoduo%E7%9A%84%E7%AC%94%E8%AE%B0%E6%9C%AC%E6%8E%A8%E8%8D%90/"
+                            >
                             <span class="title flex-center">
                                 <span class="post-nav-title-item">duoduo的笔记本推荐</span>
                                 <span class="post-nav-item">下一篇</span>
                             </span>
-                            <span class="right arrow-icon flex-center">
+                                <span class="right arrow-icon flex-center">
                               <i class="fas fa-chevron-right"></i>
                             </span>
-                        </a>
-                    </div>
-                
-            </div>
-        
+                            </a>
+                        </div>
+                    
+                </div>
+            
 
-        
-            <div class="comment-container">
-                <div class="comments-container">
-    <div id="comment-anchor"></div>
+            
+                <div class="comment-container">
+                    
+<div class="comments-container">
+    <div id="comments-anchor"></div>
     <div class="comment-area-title">
-        <i class="fas fa-comments">&nbsp;评论</i>
+        <i class="fas fa-comments"></i>&nbsp;评论
     </div>
     
-
         
             
+
     <div class="valine-container">
-        <script data-pjax
-                src="//cdn.jsdelivr.net/npm/valine@latest/dist/Valine.min.js"></script>
+        <script data-pjax src="//cdn.jsdelivr.net/npm/valine@latest/dist/Valine.min.js"></script>
         <div id="vcomments"></div>
         <script data-pjax>
-            function loadValine() {
-                new Valine({
-                    el: '#vcomments',
-                    appId: 'bSz1mOQrpvyE4kRINcUrbBW9-gzGzoHsz',
-                    appKey: 'cat36xO38x5fydzXwcqjI5Ic',
-                    meta: ['nick', 'mail', 'link'],
-                    avatar: 'wavatar',
-                    enableQQ: true,
-                    placeholder: '欢迎吐槽233333......',
-                    lang: 'zh-hans'.toLowerCase()
-                });
+          function loadValine() {
+            new Valine({
+              el: '#vcomments',
+              appId: 'bSz1mOQrpvyE4kRINcUrbBW9-gzGzoHsz',
+              appKey: 'cat36xO38x5fydzXwcqjI5Ic',
+              meta: ['nick', 'mail', 'link'],
+              avatar: 'wavatar',
+              enableQQ: true,
+              placeholder: '欢迎吐槽233333......',
+              lang: 'zh-hans'.toLowerCase()
+            });
 
-                function getAuthor(language) {
-                    switch (language) {
-                        case 'en':
-                            return 'Author';
-                        case 'zh-CN':
-                            return '博主';
-                        default:
-                            return 'Master';
+            function getAuthor(language) {
+              switch (language) {
+                case 'en':
+                  return 'Author';
+                case 'zh-CN':
+                  return '博主';
+                default:
+                  return 'Master';
+              }
+            }
+
+            // Add "Author" identify
+            const getValineDomTimer = setInterval(() => {
+              const vcards = document.querySelectorAll('#vcomments .vcards .vcard');
+              if (vcards.length > 0) {
+                let author = 'duoduo';
+
+                if (author) {
+                  for (let vcard of vcards) {
+                    const vnick_dom = vcard.querySelector('.vhead .vnick');
+                    const vnick = vnick_dom.innerHTML;
+                    if (vnick === author) {
+                      vnick_dom.innerHTML = `${vnick} <span class="author">${getAuthor(KEEP.hexo_config.language)}</span>`
                     }
+                  }
                 }
+                clearInterval(getValineDomTimer);
+              } else {
+                clearInterval(getValineDomTimer);
+              }
+            }, 2000);
+          }
 
-                // Add "Author" identify
-                const getValineDomTimer = setInterval(() => {
-                    const vcards = document.querySelectorAll('#vcomments .vcards .vcard');
-                    if (vcards.length > 0) {
-                        let author = 'duoduo';
-
-                        if (author) {
-                            for (let vcard of vcards) {
-                                const vnick_dom = vcard.querySelector('.vhead .vnick');
-                                const vnick = vnick_dom.innerHTML;
-                                if (vnick === author) {
-                                    vnick_dom.innerHTML = `${vnick} <span class="author">${getAuthor(KEEP.hexo_config.language)}</span>`
-                                }
-                            }
-                        }
-                        clearInterval(getValineDomTimer);
-                    } else {
-                        clearInterval(getValineDomTimer);
-                    }
-                }, 2000);
-            }
-
-            if ('true') {
-                const loadValineTimeout = setTimeout(() => {
-                    loadValine();
-                    clearTimeout(loadValineTimeout);
-                }, 1000);
-            } else {
-                window.addEventListener('DOMContentLoaded', loadValine);
-            }
+          if ('true' === 'true') {
+            const loadValineTimeout = setTimeout(() => {
+              loadValine();
+              clearTimeout(loadValineTimeout);
+            }, 1000);
+          } else {
+            window.addEventListener('DOMContentLoaded', loadValine);
+          }
         </script>
     </div>
 
@@ -376,6 +403,18 @@
 
         
     
+</div>
+
+                </div>
+            
+        </div>
+
+        
+            <div class="toc-content-container">
+                <div class="post-toc-wrap">
+    <div class="post-toc">
+        <ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%8E%8B%E9%80%B8%E3%80%8A%E6%A5%9A%E8%BE%AD%E7%AB%A0%E5%8F%A5%E3%80%8B%E8%88%87%E5%8A%89%E5%90%91%E3%80%8A%E4%B9%9D%E6%AD%8E%E3%80%8B%E4%B9%8B%E5%88%86%E6%AD%A7"><span class="nav-text">王逸《楚辭章句》與劉向《九歎》之分歧</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E2%80%9C%E7%9A%87%E8%80%83%E2%80%9D%E8%88%87%E2%80%9C%E4%BC%AF%E5%BA%B8%E2%80%9D"><span class="nav-text">“皇考”與“伯庸”</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E2%80%9C%E7%9A%87%E2%80%9D%E8%88%87%E2%80%9C%E8%82%87%E2%80%9D"><span class="nav-text">“皇”與“肇”</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%85%B6%E4%BB%96%E5%95%8F%E9%A1%8C"><span class="nav-text">其他問題</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%AB%98%E9%99%BD"><span class="nav-text">高陽</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%94%9D%E6%8F%90%E8%B2%9E%E4%BA%8E%E5%AD%9F%E9%99%AC%E5%85%AE"><span class="nav-text">攝提貞于孟陬兮</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%99%8D"><span class="nav-text">降</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%88%9D%E5%BA%A6"><span class="nav-text">初度</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%AD%A3%E5%89%87%E3%80%81%E9%9D%88%E5%9D%87"><span class="nav-text">正則、靈均</span></a></li></ol></li></ol>
+    </div>
 </div>
 
             </div>
@@ -390,33 +429,36 @@
         </div>
 
         <div class="page-main-content-bottom">
-            <footer class="footer">
+            
+<footer class="footer">
     <div class="info-container">
         <div class="copyright-info info-item">
             &copy;
             
-              <span>2021</span>&nbsp;-&nbsp;
+                <span>2021</span> -
             
-            2022&nbsp;<i class="fas fa-heart icon-animate"></i>&nbsp;<a href="/">duoduo</a>
+            2022
+            
+                &nbsp;<i class="fas fa-heart icon-animate"></i>
+                &nbsp;<a href="/">duoduo</a>
+            
         </div>
         
-            <script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+            <script async data-pjax
+                    src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
             <div class="website-count info-item">
                 
-                    <span id="busuanzi_container_site_uv">
-                        访问人数&nbsp;<span id="busuanzi_value_site_uv"></span>&ensp;
-                    </span>
+                    访问人数&nbsp;<span id="busuanzi_value_site_uv"></span>&ensp;
                 
                 
-                    <span id="busuanzi_container_site_pv">
-                        总访问量&nbsp;<span id="busuanzi_value_site_pv"></span>
-                    </span>
+                    总访问量&nbsp;<span id="busuanzi_value_site_pv"></span>
                 
             </div>
         
         <div class="theme-info info-item">
-            由 <a target="_blank" href="https://hexo.io">Hexo</a> 驱动&nbsp;|&nbsp;主题&nbsp;<a class="theme-version" target="_blank" href="https://github.com/XPoet/hexo-theme-keep">Keep v3.4.3</a>
+            由 <a target="_blank" href="https://hexo.io">Hexo</a> 驱动&nbsp;|&nbsp;主题&nbsp;<a class="theme-version" target="_blank" href="https://github.com/XPoet/hexo-theme-keep">Keep v3.5.2</a>
         </div>
+        
         
     </div>
 </footer>
@@ -430,15 +472,16 @@
     <ul class="tools-list">
         <!-- TOC aside toggle -->
         
-            <li class="tools-item page-aside-toggle">
-                <i class="fas fa-outdent"></i>
+            <li class="tools-item flex-center toggle-show-toc">
+                <i class="fas fa-list"></i>
             </li>
         
 
         <!-- go comment -->
         
-            <li class="go-comment">
+            <li class="tools-item flex-center go-to-comments">
                 <i class="fas fa-comment"></i>
+                <span class="post-comments-count"></span>
             </li>
         
     </ul>
@@ -456,10 +499,6 @@
 
         <li class="tools-item tool-font-adjust-minus flex-center">
             <i class="fas fa-search-minus"></i>
-        </li>
-
-        <li class="tools-item tool-expand-width flex-center">
-            <i class="fas fa-arrows-alt-h"></i>
         </li>
 
         <li class="tools-item tool-dark-light-toggle flex-center">
@@ -491,18 +530,8 @@
 
     </div>
 
-    
-        <aside class="page-aside">
-            <div class="post-toc-wrap">
-    <div class="post-toc">
-        <ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%8E%8B%E9%80%B8%E3%80%8A%E6%A5%9A%E8%BE%AD%E7%AB%A0%E5%8F%A5%E3%80%8B%E8%88%87%E5%8A%89%E5%90%91%E3%80%8A%E4%B9%9D%E6%AD%8E%E3%80%8B%E4%B9%8B%E5%88%86%E6%AD%A7"><span class="nav-text">王逸《楚辭章句》與劉向《九歎》之分歧</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E2%80%9C%E7%9A%87%E8%80%83%E2%80%9D%E8%88%87%E2%80%9C%E4%BC%AF%E5%BA%B8%E2%80%9D"><span class="nav-text">“皇考”與“伯庸”</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E2%80%9C%E7%9A%87%E2%80%9D%E8%88%87%E2%80%9C%E8%82%87%E2%80%9D"><span class="nav-text">“皇”與“肇”</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%85%B6%E4%BB%96%E5%95%8F%E9%A1%8C"><span class="nav-text">其他問題</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%AB%98%E9%99%BD"><span class="nav-text">高陽</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%94%9D%E6%8F%90%E8%B2%9E%E4%BA%8E%E5%AD%9F%E9%99%AC%E5%85%AE"><span class="nav-text">攝提貞于孟陬兮</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%99%8D"><span class="nav-text">降</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%88%9D%E5%BA%A6"><span class="nav-text">初度</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%AD%A3%E5%89%87%E3%80%81%E9%9D%88%E5%9D%87"><span class="nav-text">正則、靈均</span></a></li></ol></li></ol>
-    </div>
-</div>
-        </aside>
-    
-
-    <div class="image-viewer-container">
-    <img src="">
+    <div class="zoom-in-image-mask">
+    <img class="zoom-in-image">
 </div>
 
 
@@ -523,7 +552,7 @@
                        class="search-input"
                 >
             </div>
-            <span class="popup-btn-close">
+            <span class="close-popup-btn">
                 <i class="fas fa-times"></i>
             </span>
         </div>
@@ -541,28 +570,36 @@
 
 
 
-<script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.4.3/source/js/utils.js"></script><script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.4.3/source/js/main.js"></script><script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.4.3/source/js/header-shrink.js"></script><script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.4.3/source/js/back2top.js"></script><script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.4.3/source/js/dark-light-toggle.js"></script>
-
-
-    <script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.4.3/source/js/local-search.js"></script>
+<script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.5.2/source/js/utils.js"></script><script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.5.2/source/js/main.js"></script><script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.5.2/source/js/header-shrink.js"></script><script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.5.2/source/js/back2top.js"></script><script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.5.2/source/js/dark-light-toggle.js"></script>
 
 
 
-    <script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.4.3/source/js/code-copy.js"></script>
+
+    <script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.5.2/source/js/local-search.js"></script>
 
 
 
-    <script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.4.3/source/js/lazyload.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.5.2/source/js/code-block.js"></script>
+
+
+
+    <script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.5.2/source/js/lazyload.js"></script>
 
 
 <div class="post-scripts pjax">
     
-        <script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.4.3/source/js/left-side-toggle.js"></script><script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.4.3/source/js/libs/anime.min.js"></script><script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.4.3/source/js/toc.js"></script>
+        <script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.5.2/source/js/post-helper.js"></script>
+        
+            <script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.5.2/source/js/libs/anime.min.js"></script>
+        
+        
+            <script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.5.2/source/js/toc.js"></script>
+        
     
 </div>
 
 
-    <script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.4.3/source/js/libs/pjax.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.5.2/source/js/libs/pjax.min.js"></script>
 <script>
     window.addEventListener('DOMContentLoaded', () => {
         window.pjax = new Pjax({

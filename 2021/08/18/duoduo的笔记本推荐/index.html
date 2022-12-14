@@ -17,12 +17,16 @@
 <link rel="stylesheet" href="/css/style.css">
 
     <link rel="shortcut icon" href="/images/logo.svg">
-    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.4.3/source/css/font-awesome.min.css">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.5.2/source/fontawesome/css/fontawesome.min.css">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.5.2/source/fontawesome/css/regular.min.css">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.5.2/source/fontawesome/css/solid.min.css">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.5.2/source/fontawesome/css/brands.min.css">
     <script id="hexo-configurations">
     let KEEP = window.KEEP || {};
     KEEP.hexo_config = {"hostname":"example.com","root":"/","language":"zh-hans","path":"search.json"};
-    KEEP.theme_config = {"toc":{"enable":true,"number":false,"expand_all":false,"init_open":true},"style":{"primary_color":"#006600","avatar":"/images/doge.jpg","favicon":"/images/logo.svg","article_img_align":"left","left_side_width":"260px","content_max_width":"920px","hover":{"shadow":true,"scale":true},"first_screen":{"enable":true,"background_img":"/images/selena.png","header_transparent":true,"description":"你在等待何人？"},"scroll":{"progress_bar":{"enable":false},"percent":{"enable":true}}},"local_search":{"enable":true,"preload":false},"code_copy":{"enable":true,"style":"default"},"pjax":{"enable":true},"lazyload":{"enable":true},"version":"3.4.3"};
+    KEEP.theme_config = {"toc":{"enable":true,"number":false,"expand_all":false,"init_open":true},"style":{"primary_color":"#ad7d78","logo":"/images/logo.svg","avatar":"/images/doge.jpg","favicon":"/images/logo.svg","font_size":null,"font_family":"WenQuanYi Micro Hei","hover":{"shadow":true,"scale":true},"first_screen":{"enable":true,"header_transparent":true,"background_img":"https://cdn.staticaly.com/gh/duoduo03125/picX-image-store@master/94194702_p0.3uu36tbwl6.webp","description":"We will meet each other again || when yesterday once more.","font_color":"#ad7d78","kitokoto":false},"scroll":{"progress_bar":false,"percent":true}},"local_search":{"enable":true,"preload":false},"code_copy":{},"code_block":{"tools":{"enable":true,"style":"default"},"highlight_theme":"default"},"side_tools":{},"pjax":{"enable":true},"lazyload":{"enable":true},"comment":{"enable":true,"use":"valine","valine":{"appid":"bSz1mOQrpvyE4kRINcUrbBW9-gzGzoHsz","appkey":"cat36xO38x5fydzXwcqjI5Ic","placeholder":"欢迎吐槽233333......"},"gitalk":{"github_id":null,"repository":null,"client_id":null,"client_secret":null},"twikoo":{"env_id":null,"region":null,"version":"1.6.7"},"waline":{"server_url":null,"reaction":false,"version":2}},"post":{"word_count":{"enable":true,"wordcount":true,"min2read":true},"author_label":{"enable":false,"auto":false,"custom_label_list":["Trainee","Engineer","Architect","CTO","BOSS"]},"img_align":"left","copyright_info":true},"version":"3.5.2"};
     KEEP.language_ago = {"second":"%s seconds ago","minute":"%s minutes ago","hour":"%s hours ago","day":"%s days ago","week":"%s weeks ago","month":"%s months ago","year":"%s years ago"};
+    KEEP.language_code_block = {"copy":"Copy code","copied":"Copied","fold":"Fold code block","folded":"Folded"};
   </script>
 <meta name="generator" content="Hexo 5.4.0"><link rel="alternate" href="/atom.xml" title="duoduo乱写一气的地方" type="application/atom+xml">
 </head>
@@ -34,9 +38,7 @@
 
     
         <span class="pjax-progress-bar"></span>
-        <span class="pjax-progress-icon">
-            <i class="fas fa-circle-notch fa-spin"></i>
-        </span>
+        <i class="pjax-progress-icon fas fa-circle-notch fa-spin"></i>
     
 </div>
 
@@ -48,13 +50,18 @@
     <div class="page-main-content">
 
         <div class="page-main-content-top">
-            <header class="header-wrapper">
+            
+<header class="header-wrapper">
 
     <div class="header-content">
         <div class="left">
             
+                <a class="logo-image" href="/">
+                    <img src="/images/logo.svg">
+                </a>
+            
             <a class="logo-title" href="/">
-                duoduo瞎扯一气的地方
+               duoduo瞎扯一气的地方
             </a>
         </div>
 
@@ -66,7 +73,7 @@
                             <a class=""
                                href="/"
                             >
-                                主页
+                                首页
                             </a>
                         </li>
                     
@@ -117,7 +124,7 @@
             
                 <li class="drawer-menu-item flex-center">
                     <a class=""
-                       href="/">主页</a>
+                       href="/">首页</a>
                 </li>
             
                 <li class="drawer-menu-item flex-center">
@@ -151,27 +158,39 @@
 
                 
                     <div class="fade-in-down-animation">
-    <div class="article-content-container">
+    <div class="post-page-container">
+        <div class="article-content-container">
 
-        <div class="article-title">
-            <span class="title-hover-animation">duoduo的笔记本推荐</span>
-        </div>
+            <div class="article-title">
+                <span class="title-hover-animation">duoduo的笔记本推荐</span>
+            </div>
 
-        
-            <div class="article-header">
-                <div class="avatar">
-                    <img src="/images/doge.jpg">
-                </div>
-                <div class="info">
-                    <div class="author">
-                        <span class="name">duoduo</span>
-                        
+            
+                <div class="article-header">
+                    <div class="avatar">
+                        <img src="/images/doge.jpg">
                     </div>
-                    <div class="meta-info">
-                        <div class="article-meta-info">
+                    <div class="info">
+                        <div class="author">
+                            <span class="name">duoduo</span>
+                            
+                        </div>
+                        <div class="meta-info">
+                            
+<div class="article-meta-info">
     <span class="article-date article-meta-item">
-        <i class="fas fa-edit"></i>&nbsp;2021-08-18 21:56:02
+        
+            <i class="fa-regular fa-calendar-plus"></i>&nbsp;
+        
+        <span class="pc">2021-08-18 21:56:02</span>
+        <span class="mobile">2021-08-18 21:56</span>
     </span>
+    
+        <span class="article-update-date article-meta-item">
+        <i class="fas fa-file-pen"></i>&nbsp;
+        <span class="pc">2022-12-15 00:35:40</span>
+    </span>
+    
     
         <span class="article-categories article-meta-item">
             <i class="fas fa-folder"></i>&nbsp;
@@ -204,13 +223,13 @@
     
 </div>
 
+                        </div>
                     </div>
                 </div>
-            </div>
-        
+            
 
-        <div class="article-content markdown-body">
-            <hr>
+            <div class="article-content keep-markdown-body">
+                <hr>
 <p>更新时间：8.18</p>
 <p><strong>最近又好好研究了电脑，发现之前写的那篇问题百出。索性直接删掉，重写一篇。这次把轻薄本跟游戏本都写上。不过这次不按价格分类了，从低到高一次写下去。</strong></p>
 <h1 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h1><ol>
@@ -222,7 +241,7 @@
 <h1 id="游戏本推荐"><a href="#游戏本推荐" class="headerlink" title="游戏本推荐"></a>游戏本推荐</h1><p><strong>建议买16+512的版本哟！</strong></p>
 <h2 id="Redmi-G"><a href="#Redmi-G" class="headerlink" title="Redmi G"></a>Redmi G</h2><p><img  
                      lazyload
-                     src="/images/loading.svg"
+                     alt="image"
                      data-src="https://cdn.jsdelivr.net/gh/duoduo03125/picX-image-store@master/redmi_g.5incw71mdjo0.jpg"
                       alt="redmi_g"
                 ></p>
@@ -231,7 +250,7 @@
 <p>这款本子能够从同价位的一堆10代i5+1650中脱颖而出，主要的原因是它配备了一块16.1寸的高色域屏幕。虽然不是高刷，但是相比于同价位的那一堆45%NTSC的垃圾屏来说已经足够好了。配置上可以胜任剪辑P图和一般的单机，对于硬件要求较高的游戏，只能降低画质来保证流畅度了，<del>又不是不能玩</del>。</p>
 <h2 id="宏碁-暗影骑士擎"><a href="#宏碁-暗影骑士擎" class="headerlink" title="宏碁 暗影骑士擎"></a>宏碁 暗影骑士擎</h2><p><img  
                      lazyload
-                     src="/images/loading.svg"
+                     alt="image"
                      data-src="https://cdn.jsdelivr.net/gh/duoduo03125/picX-image-store@master/acer.24j1ecop7ork.jpg"
                       alt="acer"
                 ></p>
@@ -240,7 +259,7 @@
 <p><del>预算不足</del>的duoduo的自用款，所以能多写点。在游戏本涨价的浪潮中，这款也开始涨价了，不过没有某些款<del>（比如几个空气机）</del>涨得厉害，我记得我7月份买的时候是5750到手的。这一款的优点是屏幕跟CPU，11代移动端酷睿的提升是大大滴，这块高色域屏幕也足够吊锤45%NTSC的垃圾屏。宏碁的保守调教和残血显卡（75w）一方面使得这个本子的散热压力较轻（双烤90度），但另一方面使得它的性能释放不尽如人意<del>（不过我是够用了）</del>。没有独显直连显然也是减分项。丑陋的塑料壳和红屁股可能让颜值党对它失去兴趣。总体来说，这个本子属于无功无过的类型，无论从哪个方面都没有太明显的缺点。值得一提的是，这个本子使用电池供电时开启节能模式能做到风扇0转速，再也不用担心上课风扇哗哗响的尴尬咯！</p>
 <h2 id="荣耀猎人V700"><a href="#荣耀猎人V700" class="headerlink" title="荣耀猎人V700"></a>荣耀猎人V700</h2><p><img  
                      lazyload
-                     src="/images/loading.svg"
+                     alt="image"
                      data-src="https://cdn.jsdelivr.net/gh/duoduo03125/picX-image-store@master/768b679df4aadb6f.4w256m55cxe0.jpg"
                       alt="768b679df4aadb6f"
                 ></p>
@@ -249,7 +268,7 @@
 <p>对于买本主要用于打游戏而不考虑生产力的同学来说，这款荣耀猎人可能是比暗影骑士擎更好的选择。虽然10代i5的性能显然不如11代，但1660ti的性能可是超过了同价位的3050和3050ti。而且就一般的游戏来说，10代i5的性能也完全够用。简单来说，如果主玩fps或者有剪辑需求的同学，建议选择暗影骑士擎；如果是主玩大型单机游戏而且生产力要求不高的话，建议选择这款。</p>
 <h2 id="七彩虹-将星X15"><a href="#七彩虹-将星X15" class="headerlink" title="七彩虹 将星X15"></a>七彩虹 将星X15</h2><p><img  
                      lazyload
-                     src="/images/loading.svg"
+                     alt="image"
                      data-src="https://cdn.jsdelivr.net/gh/duoduo03125/picX-image-store@master/e18067d8834321b4.5y782ygspx40.jpg"
                       alt="e18067d8834321b4"
                 ></p>
@@ -258,7 +277,7 @@
 <p>如果你是一个有技术、有兴趣折腾电脑的同学，小黄鱼上车凄惨红可能是你坠吼的选择。六千多的价位，它的竞品全是3050，而这款七彩虹却能做到i7+3060。双满载30+110w的性能虽然比不上拯救者、暗影精灵之类的<del>空气机</del>，但游戏性能吊锤同价位的i5+3050没有一点问题。当然，如果你有耐心会折腾，可以在网络上找到更多加强性能的方法。缺点的话，不知名的品牌算一个，外包而且没有线下点的售后算另一个<del>（不过有两年上门）</del>。值得注意的是，这个型号只有i7-11800h的款是高色域屏幕，i5款都是垃圾45色域屏，不建议购买。京东溢价较高，同样不建议。<del>不过现在小黄鱼也已经没有什么货了，都被矿老板拉走了。</del></p>
 <h2 id="机械革命-蛟龙5"><a href="#机械革命-蛟龙5" class="headerlink" title="机械革命 蛟龙5"></a>机械革命 蛟龙5</h2><p><img  
                      lazyload
-                     src="/images/loading.svg"
+                     alt="image"
                      data-src="https://cdn.jsdelivr.net/gh/duoduo03125/picX-image-store@master/2e90e70d01cb75f3.1cgsqgorffnk.jpg"
                       alt="2e90e70d01cb75f3"
                 ></p>
@@ -282,7 +301,7 @@
 <h1 id="轻薄本推荐"><a href="#轻薄本推荐" class="headerlink" title="轻薄本推荐"></a>轻薄本推荐</h1><p>买轻薄本的时候，我们关注的重点跟游戏本不太一样。游戏本我们主要看CPU和显卡，而轻薄本我们重点关注重量、屏幕和续航能力。</p>
 <h2 id="宏碁-非凡s3"><a href="#宏碁-非凡s3" class="headerlink" title="宏碁 非凡s3"></a>宏碁 非凡s3</h2><p><img  
                      lazyload
-                     src="/images/loading.svg"
+                     alt="image"
                      data-src="https://cdn.jsdelivr.net/gh/duoduo03125/picX-image-store@master/%E5%AE%8F%E7%A2%81%E9%9D%9E%E5%87%A1s3.56t7eyuvjyk0.jpg"
                       alt="宏碁非凡s3"
                 ></p>
@@ -291,7 +310,7 @@
 <p>本来想推荐小新air14的，但是那玩意儿涨价涨得飞起。所以只好又来看看宏碁。没有什么好说的，一个平平无奇的本子，就跟这个牌子往常的风格一样一样。不过能过EVO认证说明性能方面应该问题不大，而且重量摆在这里了。</p>
 <h2 id="惠普-星13air"><a href="#惠普-星13air" class="headerlink" title="惠普 星13air"></a>惠普 星13air</h2><p><img  
                      lazyload
-                     src="/images/loading.svg"
+                     alt="image"
                      data-src="https://cdn.jsdelivr.net/gh/duoduo03125/picX-image-store@master/caadb310e3621f25.1uyz5dwupk1.jpg"
                       alt="caadb310e3621f25"
                 ></p>
@@ -300,7 +319,7 @@
 <p>惠普在重量控制这一块属实有点东西。960g的机身重量却塞进了一块可以支持10小时续航的电池，而且屏幕还给到了2.5K分辨率。如果4999能成为常规价格，直接冲就完事儿了。</p>
 <h2 id="RedmiBook-pro15"><a href="#RedmiBook-pro15" class="headerlink" title="RedmiBook pro15"></a>RedmiBook pro15</h2><p><img  
                      lazyload
-                     src="/images/loading.svg"
+                     alt="image"
                      data-src="https://cdn.jsdelivr.net/gh/duoduo03125/picX-image-store@master/cca3cbe71f09db2d.58gds6qvqjg0.jpg"
                       alt="cca3cbe71f09db2d"
                 ></p>
@@ -309,7 +328,7 @@
 <p>红米的本本价格倒是比较稳定，不过线上线下价格不同也是一件非常离谱的事情。这个本子的显著优点就是这块同价位所没有的3.2K屏，不过重量控制做得确实一般般。如果说上面那款惠普价格降不下来或者说对屏幕素质有一定的要求的话，可以考虑吧。当然这款机器还有I7的版本，不过我就感觉性价比一般般了。</p>
 <h2 id="宏碁-传奇X"><a href="#宏碁-传奇X" class="headerlink" title="宏碁 传奇X"></a>宏碁 传奇X</h2><p><img  
                      lazyload
-                     src="/images/loading.svg"
+                     alt="image"
                      data-src="https://cdn.jsdelivr.net/gh/duoduo03125/picX-image-store@master/b9f30690cf59e617.29nr9j1mfvb4.jpg"
                       alt="b9f30690cf59e617"
                 ></p>
@@ -318,7 +337,7 @@
 <p>一款很有意思的本子，低压U和游戏级显卡的结合加上不贵的价格让它成为了我心目中真正的全能本。满载15+35的功耗不算引人注目，但也够用。适合轻度游戏或者剪辑需要的同学。唯一美中不足的地方是一块平平无奇的1080p屏幕，然而看在这个价格的份上也就不是什么太大的问题了。</p>
 <h2 id="联想-yoga14s"><a href="#联想-yoga14s" class="headerlink" title="联想 yoga14s"></a>联想 yoga14s</h2><p><img  
                      lazyload
-                     src="/images/loading.svg"
+                     alt="image"
                      data-src="https://cdn.jsdelivr.net/gh/duoduo03125/picX-image-store@master/9f87c8734ba6d703.mw27fr1p5hc.jpg"
                       alt="9f87c8734ba6d703"
                 ></p>
@@ -327,7 +346,7 @@
 <p>看上去跟redmibook似乎没有什么区别还贵了1K多。但是联想的售后和品牌还是值这个钱的，而且重量也减轻了不少。该有的功能基本上都有，屏幕亮度甚至给到了400nit。不指望的装B功能同样也给的很足。个人感觉属于可以买但是有点贵的本子。</p>
 <h2 id="LG-gram16"><a href="#LG-gram16" class="headerlink" title="LG gram16"></a>LG gram16</h2><p><img  
                      lazyload
-                     src="/images/loading.svg"
+                     alt="image"
                      data-src="https://cdn.jsdelivr.net/gh/duoduo03125/picX-image-store@master/20e5ed9f3c581ef9.60m2ifu6aro0.jpg"
                       alt="20e5ed9f3c581ef9"
                 ></p>
@@ -336,133 +355,141 @@
 <p>价格区间出现了断层，主要是因为<del>我也不了解中间价格段的本子</del>中间价格段的本子好像没有什么很好的款。然后就是这款LG gram16了，配置上看起来<del>特别智商税</del>。不过这款还是有它的亮点。第一个就是这块LG的原厂屏，而且是果断地上到了99%DCIP3的超高色域，屏幕素质杠杠滴。其次是在1.19kg的重量里面居然塞进了80wh的电池，官方宣称续航直接飙到22小时，还是非常舒服的。最后就是高屏占比带来的舒适观感和尺寸的缩小。当然如果你有钱，你也可以选择加钱上I7的版本。</p>
 <p><del>懒得写了</del>就写到这里吧。这里的推荐显然不能满足所有人的需要，而且价格也是在不断地变动的。所以需要<del>导购</del>的同学也可找我私聊（doge）。</p>
 
-        </div>
+            </div>
 
-        
-            <div class="post-copyright-info">
-                <div class="article-copyright-info-container">
-    <ul>
-        <li>本文标题：duoduo的笔记本推荐</li>
-        <li>本文作者：duoduo</li>
-        <li>创建时间：2021-08-18 21:56:02</li>
+            
+                <div class="post-copyright-info">
+                    <div class="article-copyright-info-container">
+    <ul class="copyright-info-content">
         <li>
-            本文链接：duoduo03125.github.io2021/08/18/duoduo的笔记本推荐/
+            <span class="type">本文标题</span>：<span class="content">duoduo的笔记本推荐</span>
         </li>
         <li>
-            版权声明：本博客所有文章除特别声明外，均采用 <a class="license" target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">BY-NC-SA</a> 许可协议。转载请注明出处！
+            <span class="type">本文作者</span>：<span class="content">duoduo</span>
+        </li>
+        <li>
+            <span class="type">创建时间</span>：<span class="content">2021-08-18 21:56:02</span>
+        </li>
+        <li class="post-link">
+            <span class="type">本文链接</span>：<span class="content">2021/08/18/duoduo的笔记本推荐/</span>
+        </li>
+        <li>
+            <span class="type">版权声明</span>：<span class="content">本博客所有文章除特别声明外，均采用 <a class="license" target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">BY-NC-SA</a> 许可协议。转载请注明出处！</span>
         </li>
     </ul>
 </div>
 
-            </div>
-        
+                </div>
+            
 
-        
-            <div class="article-nav">
-                
-                    <div class="article-prev">
-                        <a class="prev"
-                           rel="prev"
-                           href="/2021/12/15/%E3%80%8A%E9%9B%A2%E9%A8%B7%E3%80%8B%E9%A6%96%E5%85%AB%E5%8F%A5%E9%87%8B%E8%AE%80/"
-                        >
+            
+
+            
+                <div class="article-nav">
+                    
+                        <div class="article-prev">
+                            <a class="prev"
+                               rel="prev"
+                               href="/2021/12/15/%E3%80%8A%E9%9B%A2%E9%A8%B7%E3%80%8B%E9%A6%96%E5%85%AB%E5%8F%A5%E9%87%8B%E8%AE%80/"
+                            >
                             <span class="left arrow-icon flex-center">
                               <i class="fas fa-chevron-left"></i>
                             </span>
-                            <span class="title flex-center">
+                                <span class="title flex-center">
                                 <span class="post-nav-title-item">《離騷》首八句釋讀</span>
                                 <span class="post-nav-item">上一篇</span>
                             </span>
-                        </a>
-                    </div>
-                
-                
-                    <div class="article-next">
-                        <a class="next"
-                           rel="next"
-                           href="/2021/08/12/%E5%A6%82%E4%BD%95%E9%AA%8C%E6%9C%BA/"
-                        >
+                            </a>
+                        </div>
+                    
+                    
+                        <div class="article-next">
+                            <a class="next"
+                               rel="next"
+                               href="/2021/08/12/%E5%A6%82%E4%BD%95%E9%AA%8C%E6%9C%BA/"
+                            >
                             <span class="title flex-center">
                                 <span class="post-nav-title-item">如何验机</span>
                                 <span class="post-nav-item">下一篇</span>
                             </span>
-                            <span class="right arrow-icon flex-center">
+                                <span class="right arrow-icon flex-center">
                               <i class="fas fa-chevron-right"></i>
                             </span>
-                        </a>
-                    </div>
-                
-            </div>
-        
+                            </a>
+                        </div>
+                    
+                </div>
+            
 
-        
-            <div class="comment-container">
-                <div class="comments-container">
-    <div id="comment-anchor"></div>
+            
+                <div class="comment-container">
+                    
+<div class="comments-container">
+    <div id="comments-anchor"></div>
     <div class="comment-area-title">
-        <i class="fas fa-comments">&nbsp;评论</i>
+        <i class="fas fa-comments"></i>&nbsp;评论
     </div>
     
-
         
             
+
     <div class="valine-container">
-        <script data-pjax
-                src="//cdn.jsdelivr.net/npm/valine@latest/dist/Valine.min.js"></script>
+        <script data-pjax src="//cdn.jsdelivr.net/npm/valine@latest/dist/Valine.min.js"></script>
         <div id="vcomments"></div>
         <script data-pjax>
-            function loadValine() {
-                new Valine({
-                    el: '#vcomments',
-                    appId: 'bSz1mOQrpvyE4kRINcUrbBW9-gzGzoHsz',
-                    appKey: 'cat36xO38x5fydzXwcqjI5Ic',
-                    meta: ['nick', 'mail', 'link'],
-                    avatar: 'wavatar',
-                    enableQQ: true,
-                    placeholder: '欢迎吐槽233333......',
-                    lang: 'zh-hans'.toLowerCase()
-                });
+          function loadValine() {
+            new Valine({
+              el: '#vcomments',
+              appId: 'bSz1mOQrpvyE4kRINcUrbBW9-gzGzoHsz',
+              appKey: 'cat36xO38x5fydzXwcqjI5Ic',
+              meta: ['nick', 'mail', 'link'],
+              avatar: 'wavatar',
+              enableQQ: true,
+              placeholder: '欢迎吐槽233333......',
+              lang: 'zh-hans'.toLowerCase()
+            });
 
-                function getAuthor(language) {
-                    switch (language) {
-                        case 'en':
-                            return 'Author';
-                        case 'zh-CN':
-                            return '博主';
-                        default:
-                            return 'Master';
+            function getAuthor(language) {
+              switch (language) {
+                case 'en':
+                  return 'Author';
+                case 'zh-CN':
+                  return '博主';
+                default:
+                  return 'Master';
+              }
+            }
+
+            // Add "Author" identify
+            const getValineDomTimer = setInterval(() => {
+              const vcards = document.querySelectorAll('#vcomments .vcards .vcard');
+              if (vcards.length > 0) {
+                let author = 'duoduo';
+
+                if (author) {
+                  for (let vcard of vcards) {
+                    const vnick_dom = vcard.querySelector('.vhead .vnick');
+                    const vnick = vnick_dom.innerHTML;
+                    if (vnick === author) {
+                      vnick_dom.innerHTML = `${vnick} <span class="author">${getAuthor(KEEP.hexo_config.language)}</span>`
                     }
+                  }
                 }
+                clearInterval(getValineDomTimer);
+              } else {
+                clearInterval(getValineDomTimer);
+              }
+            }, 2000);
+          }
 
-                // Add "Author" identify
-                const getValineDomTimer = setInterval(() => {
-                    const vcards = document.querySelectorAll('#vcomments .vcards .vcard');
-                    if (vcards.length > 0) {
-                        let author = 'duoduo';
-
-                        if (author) {
-                            for (let vcard of vcards) {
-                                const vnick_dom = vcard.querySelector('.vhead .vnick');
-                                const vnick = vnick_dom.innerHTML;
-                                if (vnick === author) {
-                                    vnick_dom.innerHTML = `${vnick} <span class="author">${getAuthor(KEEP.hexo_config.language)}</span>`
-                                }
-                            }
-                        }
-                        clearInterval(getValineDomTimer);
-                    } else {
-                        clearInterval(getValineDomTimer);
-                    }
-                }, 2000);
-            }
-
-            if ('true') {
-                const loadValineTimeout = setTimeout(() => {
-                    loadValine();
-                    clearTimeout(loadValineTimeout);
-                }, 1000);
-            } else {
-                window.addEventListener('DOMContentLoaded', loadValine);
-            }
+          if ('true' === 'true') {
+            const loadValineTimeout = setTimeout(() => {
+              loadValine();
+              clearTimeout(loadValineTimeout);
+            }, 1000);
+          } else {
+            window.addEventListener('DOMContentLoaded', loadValine);
+          }
         </script>
     </div>
 
@@ -470,6 +497,18 @@
 
         
     
+</div>
+
+                </div>
+            
+        </div>
+
+        
+            <div class="toc-content-container">
+                <div class="post-toc-wrap">
+    <div class="post-toc">
+        <ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%86%99%E5%9C%A8%E5%89%8D%E9%9D%A2"><span class="nav-text">写在前面</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%B8%B8%E6%88%8F%E6%9C%AC%E6%8E%A8%E8%8D%90"><span class="nav-text">游戏本推荐</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Redmi-G"><span class="nav-text">Redmi G</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AE%8F%E7%A2%81-%E6%9A%97%E5%BD%B1%E9%AA%91%E5%A3%AB%E6%93%8E"><span class="nav-text">宏碁 暗影骑士擎</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%8D%A3%E8%80%80%E7%8C%8E%E4%BA%BAV700"><span class="nav-text">荣耀猎人V700</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%83%E5%BD%A9%E8%99%B9-%E5%B0%86%E6%98%9FX15"><span class="nav-text">七彩虹 将星X15</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%9C%BA%E6%A2%B0%E9%9D%A9%E5%91%BD-%E8%9B%9F%E9%BE%995"><span class="nav-text">机械革命 蛟龙5</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%B8%B8%E6%88%8F%E6%9C%AC%E9%BB%91%E5%90%8D%E5%8D%95%EF%BC%88%E5%8B%BF%E4%B9%B0%EF%BC%89"><span class="nav-text">游戏本黑名单（勿买）</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E8%BD%BB%E8%96%84%E6%9C%AC%E6%8E%A8%E8%8D%90"><span class="nav-text">轻薄本推荐</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AE%8F%E7%A2%81-%E9%9D%9E%E5%87%A1s3"><span class="nav-text">宏碁 非凡s3</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%83%A0%E6%99%AE-%E6%98%9F13air"><span class="nav-text">惠普 星13air</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#RedmiBook-pro15"><span class="nav-text">RedmiBook pro15</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AE%8F%E7%A2%81-%E4%BC%A0%E5%A5%87X"><span class="nav-text">宏碁 传奇X</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%81%94%E6%83%B3-yoga14s"><span class="nav-text">联想 yoga14s</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#LG-gram16"><span class="nav-text">LG gram16</span></a></li></ol></li></ol>
+    </div>
 </div>
 
             </div>
@@ -484,33 +523,36 @@
         </div>
 
         <div class="page-main-content-bottom">
-            <footer class="footer">
+            
+<footer class="footer">
     <div class="info-container">
         <div class="copyright-info info-item">
             &copy;
             
-              <span>2021</span>&nbsp;-&nbsp;
+                <span>2021</span> -
             
-            2022&nbsp;<i class="fas fa-heart icon-animate"></i>&nbsp;<a href="/">duoduo</a>
+            2022
+            
+                &nbsp;<i class="fas fa-heart icon-animate"></i>
+                &nbsp;<a href="/">duoduo</a>
+            
         </div>
         
-            <script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+            <script async data-pjax
+                    src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
             <div class="website-count info-item">
                 
-                    <span id="busuanzi_container_site_uv">
-                        访问人数&nbsp;<span id="busuanzi_value_site_uv"></span>&ensp;
-                    </span>
+                    访问人数&nbsp;<span id="busuanzi_value_site_uv"></span>&ensp;
                 
                 
-                    <span id="busuanzi_container_site_pv">
-                        总访问量&nbsp;<span id="busuanzi_value_site_pv"></span>
-                    </span>
+                    总访问量&nbsp;<span id="busuanzi_value_site_pv"></span>
                 
             </div>
         
         <div class="theme-info info-item">
-            由 <a target="_blank" href="https://hexo.io">Hexo</a> 驱动&nbsp;|&nbsp;主题&nbsp;<a class="theme-version" target="_blank" href="https://github.com/XPoet/hexo-theme-keep">Keep v3.4.3</a>
+            由 <a target="_blank" href="https://hexo.io">Hexo</a> 驱动&nbsp;|&nbsp;主题&nbsp;<a class="theme-version" target="_blank" href="https://github.com/XPoet/hexo-theme-keep">Keep v3.5.2</a>
         </div>
+        
         
     </div>
 </footer>
@@ -524,15 +566,16 @@
     <ul class="tools-list">
         <!-- TOC aside toggle -->
         
-            <li class="tools-item page-aside-toggle">
-                <i class="fas fa-outdent"></i>
+            <li class="tools-item flex-center toggle-show-toc">
+                <i class="fas fa-list"></i>
             </li>
         
 
         <!-- go comment -->
         
-            <li class="go-comment">
+            <li class="tools-item flex-center go-to-comments">
                 <i class="fas fa-comment"></i>
+                <span class="post-comments-count"></span>
             </li>
         
     </ul>
@@ -550,10 +593,6 @@
 
         <li class="tools-item tool-font-adjust-minus flex-center">
             <i class="fas fa-search-minus"></i>
-        </li>
-
-        <li class="tools-item tool-expand-width flex-center">
-            <i class="fas fa-arrows-alt-h"></i>
         </li>
 
         <li class="tools-item tool-dark-light-toggle flex-center">
@@ -585,18 +624,8 @@
 
     </div>
 
-    
-        <aside class="page-aside">
-            <div class="post-toc-wrap">
-    <div class="post-toc">
-        <ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%86%99%E5%9C%A8%E5%89%8D%E9%9D%A2"><span class="nav-text">写在前面</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%B8%B8%E6%88%8F%E6%9C%AC%E6%8E%A8%E8%8D%90"><span class="nav-text">游戏本推荐</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Redmi-G"><span class="nav-text">Redmi G</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AE%8F%E7%A2%81-%E6%9A%97%E5%BD%B1%E9%AA%91%E5%A3%AB%E6%93%8E"><span class="nav-text">宏碁 暗影骑士擎</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%8D%A3%E8%80%80%E7%8C%8E%E4%BA%BAV700"><span class="nav-text">荣耀猎人V700</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%83%E5%BD%A9%E8%99%B9-%E5%B0%86%E6%98%9FX15"><span class="nav-text">七彩虹 将星X15</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%9C%BA%E6%A2%B0%E9%9D%A9%E5%91%BD-%E8%9B%9F%E9%BE%995"><span class="nav-text">机械革命 蛟龙5</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%B8%B8%E6%88%8F%E6%9C%AC%E9%BB%91%E5%90%8D%E5%8D%95%EF%BC%88%E5%8B%BF%E4%B9%B0%EF%BC%89"><span class="nav-text">游戏本黑名单（勿买）</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E8%BD%BB%E8%96%84%E6%9C%AC%E6%8E%A8%E8%8D%90"><span class="nav-text">轻薄本推荐</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AE%8F%E7%A2%81-%E9%9D%9E%E5%87%A1s3"><span class="nav-text">宏碁 非凡s3</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%83%A0%E6%99%AE-%E6%98%9F13air"><span class="nav-text">惠普 星13air</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#RedmiBook-pro15"><span class="nav-text">RedmiBook pro15</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AE%8F%E7%A2%81-%E4%BC%A0%E5%A5%87X"><span class="nav-text">宏碁 传奇X</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%81%94%E6%83%B3-yoga14s"><span class="nav-text">联想 yoga14s</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#LG-gram16"><span class="nav-text">LG gram16</span></a></li></ol></li></ol>
-    </div>
-</div>
-        </aside>
-    
-
-    <div class="image-viewer-container">
-    <img src="">
+    <div class="zoom-in-image-mask">
+    <img class="zoom-in-image">
 </div>
 
 
@@ -617,7 +646,7 @@
                        class="search-input"
                 >
             </div>
-            <span class="popup-btn-close">
+            <span class="close-popup-btn">
                 <i class="fas fa-times"></i>
             </span>
         </div>
@@ -635,28 +664,36 @@
 
 
 
-<script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.4.3/source/js/utils.js"></script><script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.4.3/source/js/main.js"></script><script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.4.3/source/js/header-shrink.js"></script><script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.4.3/source/js/back2top.js"></script><script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.4.3/source/js/dark-light-toggle.js"></script>
-
-
-    <script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.4.3/source/js/local-search.js"></script>
+<script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.5.2/source/js/utils.js"></script><script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.5.2/source/js/main.js"></script><script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.5.2/source/js/header-shrink.js"></script><script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.5.2/source/js/back2top.js"></script><script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.5.2/source/js/dark-light-toggle.js"></script>
 
 
 
-    <script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.4.3/source/js/code-copy.js"></script>
+
+    <script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.5.2/source/js/local-search.js"></script>
 
 
 
-    <script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.4.3/source/js/lazyload.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.5.2/source/js/code-block.js"></script>
+
+
+
+    <script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.5.2/source/js/lazyload.js"></script>
 
 
 <div class="post-scripts pjax">
     
-        <script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.4.3/source/js/left-side-toggle.js"></script><script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.4.3/source/js/libs/anime.min.js"></script><script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.4.3/source/js/toc.js"></script>
+        <script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.5.2/source/js/post-helper.js"></script>
+        
+            <script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.5.2/source/js/libs/anime.min.js"></script>
+        
+        
+            <script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.5.2/source/js/toc.js"></script>
+        
     
 </div>
 
 
-    <script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.4.3/source/js/libs/pjax.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.5.2/source/js/libs/pjax.min.js"></script>
 <script>
     window.addEventListener('DOMContentLoaded', () => {
         window.pjax = new Pjax({

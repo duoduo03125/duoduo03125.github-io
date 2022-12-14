@@ -17,12 +17,16 @@
 <link rel="stylesheet" href="/css/style.css">
 
     <link rel="shortcut icon" href="/images/logo.svg">
-    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.4.3/source/css/font-awesome.min.css">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.5.2/source/fontawesome/css/fontawesome.min.css">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.5.2/source/fontawesome/css/regular.min.css">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.5.2/source/fontawesome/css/solid.min.css">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.5.2/source/fontawesome/css/brands.min.css">
     <script id="hexo-configurations">
     let KEEP = window.KEEP || {};
     KEEP.hexo_config = {"hostname":"example.com","root":"/","language":"zh-hans","path":"search.json"};
-    KEEP.theme_config = {"toc":{"enable":true,"number":false,"expand_all":false,"init_open":true},"style":{"primary_color":"#006600","avatar":"/images/doge.jpg","favicon":"/images/logo.svg","article_img_align":"left","left_side_width":"260px","content_max_width":"920px","hover":{"shadow":true,"scale":true},"first_screen":{"enable":true,"background_img":"/images/selena.png","header_transparent":true,"description":"你在等待何人？"},"scroll":{"progress_bar":{"enable":false},"percent":{"enable":true}}},"local_search":{"enable":true,"preload":false},"code_copy":{"enable":true,"style":"default"},"pjax":{"enable":true},"lazyload":{"enable":true},"version":"3.4.3"};
+    KEEP.theme_config = {"toc":{"enable":true,"number":false,"expand_all":false,"init_open":true},"style":{"primary_color":"#ad7d78","logo":"/images/logo.svg","avatar":"/images/doge.jpg","favicon":"/images/logo.svg","font_size":null,"font_family":"WenQuanYi Micro Hei","hover":{"shadow":true,"scale":true},"first_screen":{"enable":true,"header_transparent":true,"background_img":"https://cdn.staticaly.com/gh/duoduo03125/picX-image-store@master/94194702_p0.3uu36tbwl6.webp","description":"We will meet each other again || when yesterday once more.","font_color":"#ad7d78","kitokoto":false},"scroll":{"progress_bar":false,"percent":true}},"local_search":{"enable":true,"preload":false},"code_copy":{},"code_block":{"tools":{"enable":true,"style":"default"},"highlight_theme":"default"},"side_tools":{},"pjax":{"enable":true},"lazyload":{"enable":true},"comment":{"enable":true,"use":"valine","valine":{"appid":"bSz1mOQrpvyE4kRINcUrbBW9-gzGzoHsz","appkey":"cat36xO38x5fydzXwcqjI5Ic","placeholder":"欢迎吐槽233333......"},"gitalk":{"github_id":null,"repository":null,"client_id":null,"client_secret":null},"twikoo":{"env_id":null,"region":null,"version":"1.6.7"},"waline":{"server_url":null,"reaction":false,"version":2}},"post":{"word_count":{"enable":true,"wordcount":true,"min2read":true},"author_label":{"enable":false,"auto":false,"custom_label_list":["Trainee","Engineer","Architect","CTO","BOSS"]},"img_align":"left","copyright_info":true},"version":"3.5.2"};
     KEEP.language_ago = {"second":"%s seconds ago","minute":"%s minutes ago","hour":"%s hours ago","day":"%s days ago","week":"%s weeks ago","month":"%s months ago","year":"%s years ago"};
+    KEEP.language_code_block = {"copy":"Copy code","copied":"Copied","fold":"Fold code block","folded":"Folded"};
   </script>
 <meta name="generator" content="Hexo 5.4.0"><link rel="alternate" href="/atom.xml" title="duoduo乱写一气的地方" type="application/atom+xml">
 </head>
@@ -34,9 +38,7 @@
 
     
         <span class="pjax-progress-bar"></span>
-        <span class="pjax-progress-icon">
-            <i class="fas fa-circle-notch fa-spin"></i>
-        </span>
+        <i class="pjax-progress-icon fas fa-circle-notch fa-spin"></i>
     
 </div>
 
@@ -48,13 +50,18 @@
     <div class="page-main-content">
 
         <div class="page-main-content-top">
-            <header class="header-wrapper">
+            
+<header class="header-wrapper">
 
     <div class="header-content">
         <div class="left">
             
+                <a class="logo-image" href="/">
+                    <img src="/images/logo.svg">
+                </a>
+            
             <a class="logo-title" href="/">
-                duoduo瞎扯一气的地方
+               duoduo瞎扯一气的地方
             </a>
         </div>
 
@@ -66,7 +73,7 @@
                             <a class=""
                                href="/"
                             >
-                                主页
+                                首页
                             </a>
                         </li>
                     
@@ -117,7 +124,7 @@
             
                 <li class="drawer-menu-item flex-center">
                     <a class=""
-                       href="/">主页</a>
+                       href="/">首页</a>
                 </li>
             
                 <li class="drawer-menu-item flex-center">
@@ -151,27 +158,39 @@
 
                 
                     <div class="fade-in-down-animation">
-    <div class="article-content-container">
+    <div class="post-page-container">
+        <div class="article-content-container">
 
-        <div class="article-title">
-            <span class="title-hover-animation">关于我除夕还在刷机这回事</span>
-        </div>
+            <div class="article-title">
+                <span class="title-hover-animation">关于我除夕还在刷机这回事</span>
+            </div>
 
-        
-            <div class="article-header">
-                <div class="avatar">
-                    <img src="/images/doge.jpg">
-                </div>
-                <div class="info">
-                    <div class="author">
-                        <span class="name">duoduo</span>
-                        
+            
+                <div class="article-header">
+                    <div class="avatar">
+                        <img src="/images/doge.jpg">
                     </div>
-                    <div class="meta-info">
-                        <div class="article-meta-info">
+                    <div class="info">
+                        <div class="author">
+                            <span class="name">duoduo</span>
+                            
+                        </div>
+                        <div class="meta-info">
+                            
+<div class="article-meta-info">
     <span class="article-date article-meta-item">
-        <i class="fas fa-edit"></i>&nbsp;2022-02-01 15:39:20
+        
+            <i class="fa-regular fa-calendar-plus"></i>&nbsp;
+        
+        <span class="pc">2022-02-01 15:39:20</span>
+        <span class="mobile">2022-02-01 15:39</span>
     </span>
+    
+        <span class="article-update-date article-meta-item">
+        <i class="fas fa-file-pen"></i>&nbsp;
+        <span class="pc">2022-02-02 16:46:33</span>
+    </span>
+    
     
         <span class="article-categories article-meta-item">
             <i class="fas fa-folder"></i>&nbsp;
@@ -204,13 +223,13 @@
     
 </div>
 
+                        </div>
                     </div>
                 </div>
-            </div>
-        
+            
 
-        <div class="article-content markdown-body">
-            <p>这个事情要从我闲鱼上手了一部三星S10e开始说起。S10e到手之后，那是哪哪都满意，手感奇佳，性能够用，屏幕素质好（说是全亮度低频PWM调光，但我在这方面并不是特别敏感）。作为日用机，三星S10e是近乎完美的，不过血崩的续航、没有高刷、不能解锁bl和不能root等缺点让我这个喜欢玩游戏和折腾模块的人始终无法接受。于是我的旧主力机K40就被赋予了游戏机和刷机的重任。但K40的屏幕实在不太行，稳定版MIUI13又没有DC调光，用完S10e再用K40，我的眼睛直呼不爽。那就换机吧，然而看来看去，在相机、屏幕、性能、价格上都让我满意的居然是小米11！这种年度智检机我怎么可能会买。那就来给K40刷个机吧（手动滑稽）！于是乎，在除夕的早晨，我开始把数据备份出来，开始刷类原生，这次我打算刷的系统是evolutionX。</p>
+            <div class="article-content keep-markdown-body">
+                <p>这个事情要从我闲鱼上手了一部三星S10e开始说起。S10e到手之后，那是哪哪都满意，手感奇佳，性能够用，屏幕素质好（说是全亮度低频PWM调光，但我在这方面并不是特别敏感）。作为日用机，三星S10e是近乎完美的，不过血崩的续航、没有高刷、不能解锁bl和不能root等缺点让我这个喜欢玩游戏和折腾模块的人始终无法接受。于是我的旧主力机K40就被赋予了游戏机和刷机的重任。但K40的屏幕实在不太行，稳定版MIUI13又没有DC调光，用完S10e再用K40，我的眼睛直呼不爽。那就换机吧，然而看来看去，在相机、屏幕、性能、价格上都让我满意的居然是小米11！这种年度智检机我怎么可能会买。那就来给K40刷个机吧（手动滑稽）！于是乎，在除夕的早晨，我开始把数据备份出来，开始刷类原生，这次我打算刷的系统是evolutionX。</p>
 <p>作为新兴类原生，evolutionX官方是没有像los一样提供rec的，同时也没有线刷包。怎么才能用在安卓12下不能解密data分区的TWRP3.6.0刷入安卓12的rom呢。诶，可以先降级回安卓11啊。几个月前我因为magisk刷不进去，一气之下从MIUI EU的开发版刷回国内版MIUI的稳定版，当时使用的线刷包还在，版本是12.5.18，安卓版本当然是安卓11。MIUI线刷包的架构有些奇怪，flash脚本并不像类原生rom的线刷包一样可以直接运行（至少我不行）。好在小米为刷机党提供了miflash这个官方刷机工具（虽然上一次更新还是在20年）。打开miflash，载入设备，选择刷机包，修改刷机模式为全部删除，然后运行就好了。miflash的默认刷机模式是全部删除并上锁，刷完之后你的bl锁就会被锁回去。之前有一次刷机忘记改了，好在又一次解锁不需要等168。miflash跑完，手机会自动重启，但miflash会显示刷机失败，不要管他，手机正常开机就行。</p>
 <p>开机之后会进入miui12.5的设置界面，不过我可不需要体验“激动人心”的MIUI了。直接关机，进bl，连接电脑，通过fastboot启动twrp。在TWRP中打开adb sideload模式，用sideload命令将evolutionX的包刷入手机，然后重启进rec。等等，怎么没进rec？似乎是因为我没有将twrp刷入手机，不管了，反正twrp在安卓12下不能解密data，约等于啥也干不了。接着按照evolutionX官方的指示，在twrp中format data并使用adb sideload刷入magisk。你问我TWRP怎么能格式化data分区？我也不知道，但官方是这么说的，我也就这么干，反正能开机就行（x）。重启进系统，开机啦！</p>
 <p>evolutionX内置了GAPPS，因此开机需要谷歌验证。我当然没有插卡，但跳过SIM卡之后它会强制你连接WIFI。如果没有全局珂雪尚惘，这个事情还是比较棘手的。不过通过一些不可描述的操作，我还是成功进入了系统。</p>
@@ -218,7 +237,7 @@
 <p>然后就是漫长的“毛坯房装修”时间，启动器这边用lawnchair+quickswitch+cayicon+小圆图标包，算是非常好看了。lawnchair是一个良好的基底，quickswitch提供流畅的动画，cayicon为桌面补全自适应的图标配色，小圆图标包则为抽屉里的软件提供好看的图标。</p>
 <p><img  
                      lazyload
-                     src="/images/loading.svg"
+                     alt="image"
                      data-src="https://cdn.jsdelivr.net/gh/duoduo03125/picX-image-store@master/Screenshot_20220202-160908_Lawnchair.5jlbtn4ukok0.webp"
                       alt="Screenshot_20220202-160908_Lawnchair"
                 ></p>
@@ -227,138 +246,146 @@
 <p>小窗自然是没有的，米窗的适配也并不让人满意。好几次打着游戏想开小窗回个消息，结果直接卡退了，很让人烦躁。小窗使用频率较高的朋友们可以放弃这个rom了。</p>
 <p>最后贴一下自己在用的magisk模块。<br><img  
                      lazyload
-                     src="/images/loading.svg"
+                     alt="image"
                      data-src="https://cdn.jsdelivr.net/gh/duoduo03125/picX-image-store@master/Screenshot_20220202-163806_Magisk.3i3lmf8azoc0.webp"
                       alt="Screenshot_20220202-163806_Magisk"
                 ></p>
 
-        </div>
+            </div>
 
-        
-            <div class="post-copyright-info">
-                <div class="article-copyright-info-container">
-    <ul>
-        <li>本文标题：关于我除夕还在刷机这回事</li>
-        <li>本文作者：duoduo</li>
-        <li>创建时间：2022-02-01 15:39:20</li>
+            
+                <div class="post-copyright-info">
+                    <div class="article-copyright-info-container">
+    <ul class="copyright-info-content">
         <li>
-            本文链接：duoduo03125.github.io2022/02/01/关于我除夕还在刷机这回事/
+            <span class="type">本文标题</span>：<span class="content">关于我除夕还在刷机这回事</span>
         </li>
         <li>
-            版权声明：本博客所有文章除特别声明外，均采用 <a class="license" target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">BY-NC-SA</a> 许可协议。转载请注明出处！
+            <span class="type">本文作者</span>：<span class="content">duoduo</span>
+        </li>
+        <li>
+            <span class="type">创建时间</span>：<span class="content">2022-02-01 15:39:20</span>
+        </li>
+        <li class="post-link">
+            <span class="type">本文链接</span>：<span class="content">2022/02/01/关于我除夕还在刷机这回事/</span>
+        </li>
+        <li>
+            <span class="type">版权声明</span>：<span class="content">本博客所有文章除特别声明外，均采用 <a class="license" target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">BY-NC-SA</a> 许可协议。转载请注明出处！</span>
         </li>
     </ul>
 </div>
 
-            </div>
-        
+                </div>
+            
 
-        
-            <div class="article-nav">
-                
-                    <div class="article-prev">
-                        <a class="prev"
-                           rel="prev"
-                           href="/2022/12/14/%E5%8C%97%E5%9C%B0%E6%95%85%E4%BA%8B%E9%9B%86/"
-                        >
+            
+
+            
+                <div class="article-nav">
+                    
+                        <div class="article-prev">
+                            <a class="prev"
+                               rel="prev"
+                               href="/2022/12/14/%E5%8C%97%E5%9C%B0%E6%95%85%E4%BA%8B%E9%9B%86/"
+                            >
                             <span class="left arrow-icon flex-center">
                               <i class="fas fa-chevron-left"></i>
                             </span>
-                            <span class="title flex-center">
+                                <span class="title flex-center">
                                 <span class="post-nav-title-item">duoduo的北地故事集</span>
                                 <span class="post-nav-item">上一篇</span>
                             </span>
-                        </a>
-                    </div>
-                
-                
-                    <div class="article-next">
-                        <a class="next"
-                           rel="next"
-                           href="/2021/12/17/%E6%9D%A5%E8%87%AA2021%E5%B9%B4%E5%BA%95%E7%9A%84nokia-7plus%E4%BD%93%E9%AA%8C%E6%8A%A5%E5%91%8A/"
-                        >
+                            </a>
+                        </div>
+                    
+                    
+                        <div class="article-next">
+                            <a class="next"
+                               rel="next"
+                               href="/2021/12/17/%E6%9D%A5%E8%87%AA2021%E5%B9%B4%E5%BA%95%E7%9A%84nokia-7plus%E4%BD%93%E9%AA%8C%E6%8A%A5%E5%91%8A/"
+                            >
                             <span class="title flex-center">
                                 <span class="post-nav-title-item">来自2021年底的nokia 7plus体验报告</span>
                                 <span class="post-nav-item">下一篇</span>
                             </span>
-                            <span class="right arrow-icon flex-center">
+                                <span class="right arrow-icon flex-center">
                               <i class="fas fa-chevron-right"></i>
                             </span>
-                        </a>
-                    </div>
-                
-            </div>
-        
+                            </a>
+                        </div>
+                    
+                </div>
+            
 
-        
-            <div class="comment-container">
-                <div class="comments-container">
-    <div id="comment-anchor"></div>
+            
+                <div class="comment-container">
+                    
+<div class="comments-container">
+    <div id="comments-anchor"></div>
     <div class="comment-area-title">
-        <i class="fas fa-comments">&nbsp;评论</i>
+        <i class="fas fa-comments"></i>&nbsp;评论
     </div>
     
-
         
             
+
     <div class="valine-container">
-        <script data-pjax
-                src="//cdn.jsdelivr.net/npm/valine@latest/dist/Valine.min.js"></script>
+        <script data-pjax src="//cdn.jsdelivr.net/npm/valine@latest/dist/Valine.min.js"></script>
         <div id="vcomments"></div>
         <script data-pjax>
-            function loadValine() {
-                new Valine({
-                    el: '#vcomments',
-                    appId: 'bSz1mOQrpvyE4kRINcUrbBW9-gzGzoHsz',
-                    appKey: 'cat36xO38x5fydzXwcqjI5Ic',
-                    meta: ['nick', 'mail', 'link'],
-                    avatar: 'wavatar',
-                    enableQQ: true,
-                    placeholder: '欢迎吐槽233333......',
-                    lang: 'zh-hans'.toLowerCase()
-                });
+          function loadValine() {
+            new Valine({
+              el: '#vcomments',
+              appId: 'bSz1mOQrpvyE4kRINcUrbBW9-gzGzoHsz',
+              appKey: 'cat36xO38x5fydzXwcqjI5Ic',
+              meta: ['nick', 'mail', 'link'],
+              avatar: 'wavatar',
+              enableQQ: true,
+              placeholder: '欢迎吐槽233333......',
+              lang: 'zh-hans'.toLowerCase()
+            });
 
-                function getAuthor(language) {
-                    switch (language) {
-                        case 'en':
-                            return 'Author';
-                        case 'zh-CN':
-                            return '博主';
-                        default:
-                            return 'Master';
+            function getAuthor(language) {
+              switch (language) {
+                case 'en':
+                  return 'Author';
+                case 'zh-CN':
+                  return '博主';
+                default:
+                  return 'Master';
+              }
+            }
+
+            // Add "Author" identify
+            const getValineDomTimer = setInterval(() => {
+              const vcards = document.querySelectorAll('#vcomments .vcards .vcard');
+              if (vcards.length > 0) {
+                let author = 'duoduo';
+
+                if (author) {
+                  for (let vcard of vcards) {
+                    const vnick_dom = vcard.querySelector('.vhead .vnick');
+                    const vnick = vnick_dom.innerHTML;
+                    if (vnick === author) {
+                      vnick_dom.innerHTML = `${vnick} <span class="author">${getAuthor(KEEP.hexo_config.language)}</span>`
                     }
+                  }
                 }
+                clearInterval(getValineDomTimer);
+              } else {
+                clearInterval(getValineDomTimer);
+              }
+            }, 2000);
+          }
 
-                // Add "Author" identify
-                const getValineDomTimer = setInterval(() => {
-                    const vcards = document.querySelectorAll('#vcomments .vcards .vcard');
-                    if (vcards.length > 0) {
-                        let author = 'duoduo';
-
-                        if (author) {
-                            for (let vcard of vcards) {
-                                const vnick_dom = vcard.querySelector('.vhead .vnick');
-                                const vnick = vnick_dom.innerHTML;
-                                if (vnick === author) {
-                                    vnick_dom.innerHTML = `${vnick} <span class="author">${getAuthor(KEEP.hexo_config.language)}</span>`
-                                }
-                            }
-                        }
-                        clearInterval(getValineDomTimer);
-                    } else {
-                        clearInterval(getValineDomTimer);
-                    }
-                }, 2000);
-            }
-
-            if ('true') {
-                const loadValineTimeout = setTimeout(() => {
-                    loadValine();
-                    clearTimeout(loadValineTimeout);
-                }, 1000);
-            } else {
-                window.addEventListener('DOMContentLoaded', loadValine);
-            }
+          if ('true' === 'true') {
+            const loadValineTimeout = setTimeout(() => {
+              loadValine();
+              clearTimeout(loadValineTimeout);
+            }, 1000);
+          } else {
+            window.addEventListener('DOMContentLoaded', loadValine);
+          }
         </script>
     </div>
 
@@ -366,6 +393,18 @@
 
         
     
+</div>
+
+                </div>
+            
+        </div>
+
+        
+            <div class="toc-content-container">
+                <div class="post-toc-wrap">
+    <div class="post-toc">
+        
+    </div>
 </div>
 
             </div>
@@ -380,33 +419,36 @@
         </div>
 
         <div class="page-main-content-bottom">
-            <footer class="footer">
+            
+<footer class="footer">
     <div class="info-container">
         <div class="copyright-info info-item">
             &copy;
             
-              <span>2021</span>&nbsp;-&nbsp;
+                <span>2021</span> -
             
-            2022&nbsp;<i class="fas fa-heart icon-animate"></i>&nbsp;<a href="/">duoduo</a>
+            2022
+            
+                &nbsp;<i class="fas fa-heart icon-animate"></i>
+                &nbsp;<a href="/">duoduo</a>
+            
         </div>
         
-            <script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+            <script async data-pjax
+                    src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
             <div class="website-count info-item">
                 
-                    <span id="busuanzi_container_site_uv">
-                        访问人数&nbsp;<span id="busuanzi_value_site_uv"></span>&ensp;
-                    </span>
+                    访问人数&nbsp;<span id="busuanzi_value_site_uv"></span>&ensp;
                 
                 
-                    <span id="busuanzi_container_site_pv">
-                        总访问量&nbsp;<span id="busuanzi_value_site_pv"></span>
-                    </span>
+                    总访问量&nbsp;<span id="busuanzi_value_site_pv"></span>
                 
             </div>
         
         <div class="theme-info info-item">
-            由 <a target="_blank" href="https://hexo.io">Hexo</a> 驱动&nbsp;|&nbsp;主题&nbsp;<a class="theme-version" target="_blank" href="https://github.com/XPoet/hexo-theme-keep">Keep v3.4.3</a>
+            由 <a target="_blank" href="https://hexo.io">Hexo</a> 驱动&nbsp;|&nbsp;主题&nbsp;<a class="theme-version" target="_blank" href="https://github.com/XPoet/hexo-theme-keep">Keep v3.5.2</a>
         </div>
+        
         
     </div>
 </footer>
@@ -420,15 +462,16 @@
     <ul class="tools-list">
         <!-- TOC aside toggle -->
         
-            <li class="tools-item page-aside-toggle">
-                <i class="fas fa-outdent"></i>
+            <li class="tools-item flex-center toggle-show-toc">
+                <i class="fas fa-list"></i>
             </li>
         
 
         <!-- go comment -->
         
-            <li class="go-comment">
+            <li class="tools-item flex-center go-to-comments">
                 <i class="fas fa-comment"></i>
+                <span class="post-comments-count"></span>
             </li>
         
     </ul>
@@ -446,10 +489,6 @@
 
         <li class="tools-item tool-font-adjust-minus flex-center">
             <i class="fas fa-search-minus"></i>
-        </li>
-
-        <li class="tools-item tool-expand-width flex-center">
-            <i class="fas fa-arrows-alt-h"></i>
         </li>
 
         <li class="tools-item tool-dark-light-toggle flex-center">
@@ -481,18 +520,8 @@
 
     </div>
 
-    
-        <aside class="page-aside">
-            <div class="post-toc-wrap">
-    <div class="post-toc">
-        
-    </div>
-</div>
-        </aside>
-    
-
-    <div class="image-viewer-container">
-    <img src="">
+    <div class="zoom-in-image-mask">
+    <img class="zoom-in-image">
 </div>
 
 
@@ -513,7 +542,7 @@
                        class="search-input"
                 >
             </div>
-            <span class="popup-btn-close">
+            <span class="close-popup-btn">
                 <i class="fas fa-times"></i>
             </span>
         </div>
@@ -531,28 +560,36 @@
 
 
 
-<script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.4.3/source/js/utils.js"></script><script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.4.3/source/js/main.js"></script><script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.4.3/source/js/header-shrink.js"></script><script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.4.3/source/js/back2top.js"></script><script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.4.3/source/js/dark-light-toggle.js"></script>
-
-
-    <script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.4.3/source/js/local-search.js"></script>
+<script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.5.2/source/js/utils.js"></script><script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.5.2/source/js/main.js"></script><script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.5.2/source/js/header-shrink.js"></script><script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.5.2/source/js/back2top.js"></script><script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.5.2/source/js/dark-light-toggle.js"></script>
 
 
 
-    <script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.4.3/source/js/code-copy.js"></script>
+
+    <script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.5.2/source/js/local-search.js"></script>
 
 
 
-    <script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.4.3/source/js/lazyload.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.5.2/source/js/code-block.js"></script>
+
+
+
+    <script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.5.2/source/js/lazyload.js"></script>
 
 
 <div class="post-scripts pjax">
     
-        <script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.4.3/source/js/left-side-toggle.js"></script><script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.4.3/source/js/libs/anime.min.js"></script><script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.4.3/source/js/toc.js"></script>
+        <script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.5.2/source/js/post-helper.js"></script>
+        
+            <script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.5.2/source/js/libs/anime.min.js"></script>
+        
+        
+            <script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.5.2/source/js/toc.js"></script>
+        
     
 </div>
 
 
-    <script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.4.3/source/js/libs/pjax.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.5.2/source/js/libs/pjax.min.js"></script>
 <script>
     window.addEventListener('DOMContentLoaded', () => {
         window.pjax = new Pjax({
